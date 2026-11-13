@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Identify common Kentucky lawn and garden weeds using real photos and practical field marks.">
+<title>Field &amp; Verge — Common Weed Field Guide</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<script defer src="photos.js"></script>
+<script defer src="guide.js"></script>
+</head>
+<body id="top">
+<a class="skip" href="#guide">Skip to the field guide</a>
+<header class="wrap mast">
+  <a class="brand" href="#top"><span class="brand-icon" aria-hidden="true">✳</span> Field &amp; Verge</a>
+  <nav aria-label="Main navigation"><a href="#guide">Field guide</a><a href="#how">How to identify</a></nav>
+</header>
+<main>
+  <section class="hero wrap" aria-labelledby="hero-title">
+    <div class="hero-copy">
+      <p class="kicker"><span></span> A KENTUCKY FIELD GUIDE</p>
+      <h1 id="hero-title">Common weeds,<br><em>up close.</em></h1>
+      <p>Get to know the plants in your lawn, garden, and sidewalk cracks. Start with a photo, then look closer at the leaves, flowers, and stems.</p>
+      <a class="cta" href="#guide">Explore the field guide <span aria-hidden="true">↓</span></a>
+    </div>
+    <figure class="hero-image">
+      <img src="images/taraxacum-officinale-2.webp" alt="Yellow dandelions flowering in a grassy field" fetchpriority="high">
+      <figcaption><span>Common dandelion</span><i>Taraxacum officinale</i></figcaption>
+    </figure>
+  </section>
+  <section class="catalog wrap" id="guide" aria-labelledby="guide-title">
+    <div class="section-head">
+      <div><p class="kicker"><span></span> THE COLLECTION</p><h2 id="guide-title">Find your weed</h2></div>
+      <label class="search"><span aria-hidden="true">⌕</span><input id="search" type="search" placeholder="Try “heart-shaped” or “yellow”" aria-label="Search by name or trait"></label>
+    </div>
+    <div class="tools"><div id="filters" role="group" aria-label="Filter by flower color or plant type"></div><p id="count" role="status"></p></div>
+    <div id="cards" class="cards"></div>
+    <p class="empty" id="empty" hidden>No matches. Try another trait or clear the filters. <button type="button" id="reset">Clear search and filters</button></p>
+    <noscript>Enable JavaScript to browse the searchable plant profiles.</noscript>
+  </section>
+  <section id="how" class="how">
+    <div class="wrap how-inner">
+      <div><p class="kicker"><span></span> IDENTIFICATION TIPS</p><h2>Take a closer look</h2></div>
+      <div class="tips">
+        <article><h3>Start with the leaves</h3><p>Look at the shape, the edge, and where the leaves attach. A rosette is a cluster of leaves at ground level.</p></article>
+        <article><h3>Follow the stem</h3><p>See whether it stands upright, creeps along the ground, or roots where it touches soil. Check whether the stem is round or square.</p></article>
+        <article><h3>Check more than one clue</h3><p>Compare leaves and stems as well as flowers or seed heads. Photograph the whole plant and a close-up for a second look.</p></article>
+      </div>
+    </div>
+  </section>
+</main>
+<footer class="wrap foot"><a class="brand" href="#top"><span class="brand-icon" aria-hidden="true">✳</span> Field &amp; Verge</a><a href="https://forages.mgcafe.uky.edu/weedid">University of Kentucky weed ID resources ↗</a><button type="button" id="credits">Photo credits</button></footer>
+<dialog id="profile" aria-labelledby="profile-title"><button type="button" id="close" aria-label="Close profile">×</button><div id="details"></div></dialog>
+</body>
+</html>
