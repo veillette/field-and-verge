@@ -583,5 +583,383 @@ const photos = {
       "licenseURL": "http://creativecommons.org/licenses/by-sa/4.0/legalcode",
       "file": "images/artemisia-vulgaris-0.webp"
     }
+  ],
+  "alliaria-petiolata": [
+    {
+      "label": "Alliaria petiolata",
+      "author": "NY State IPM Program",
+      "license": "CC BY 2.0",
+      "licenseURL": "http://creativecommons.org/licenses/by/2.0/legalcode",
+      "file": "images/alliaria-petiolata-0.webp"
+    }
+  ],
+  "lonicera-japonica": [
+    {
+      "label": "Flowers (in axillary pairs) turning yellow as they age",
+      "author": "Cathy Dewitt",
+      "license": "CC BY 4.0",
+      "licenseURL": "http://creativecommons.org/licenses/by/4.0/legalcode",
+      "file": "images/lonicera-japonica-0.webp"
+    }
+  ],
+  "lonicera-maackii": [
+    {
+      "label": "Leafy shoots bearing white tubular flowers that age to yellow",
+      "author": "Fanghong",
+      "license": "CC BY-SA 3.0",
+      "licenseURL": "https://creativecommons.org/licenses/by-sa/3.0/deed.en",
+      "file": "images/lonicera-maackii-0.webp"
+    }
+  ],
+  "rosa-multiflora": [
+    {
+      "label": "Rosa multiflora",
+      "author": "Cyn Slaughter",
+      "license": "CC BY 4.0",
+      "licenseURL": "http://creativecommons.org/licenses/by/4.0/legalcode",
+      "file": "images/rosa-multiflora-0.webp"
+    }
+  ],
+  "euonymus-fortunei": [
+    {
+      "label": "Euonymus fortunei",
+      "author": "Ibby Wederzijds",
+      "license": "CC BY 2.0",
+      "licenseURL": "http://creativecommons.org/licenses/by/2.0/legalcode",
+      "file": "images/euonymus-fortunei-0.webp"
+    }
+  ],
+  "hedera-helix": [
+    {
+      "label": "Form",
+      "author": "Cathy Dewitt",
+      "license": "CC BY 4.0",
+      "licenseURL": "http://creativecommons.org/licenses/by/4.0/legalcode",
+      "file": "images/hedera-helix-0.webp"
+    }
+  ],
+  "pueraria-montana-var-lobata": [
+    {
+      "label": "Vine leaves - Halifax Co., NC",
+      "author": "Cathy DeWitt",
+      "license": "CC BY 4.0",
+      "licenseURL": "http://creativecommons.org/licenses/by/4.0/legalcode",
+      "file": "images/pueraria-montana-var-lobata-0.webp"
+    }
+  ],
+  "ailanthus-altissima": [
+    {
+      "label": "Leaflet auricles at the base, serrations",
+      "author": "Cathy Dewitt",
+      "license": "CC BY 4.0",
+      "licenseURL": "http://creativecommons.org/licenses/by/4.0/legalcode",
+      "file": "images/ailanthus-altissima-0.webp"
+    }
+  ],
+  "elaeagnus-umbellata": [
+    {
+      "label": "leaves and fruit",
+      "author": "Eric Hunt",
+      "license": "CC BY-SA 4.0",
+      "licenseURL": "http://creativecommons.org/licenses/by-sa/4.0/legalcode",
+      "file": "images/elaeagnus-umbellata-0.webp"
+    }
+  ],
+  "ligustrum-sinense": [
+    {
+      "label": "Branches weighted down with masses of blue-black drupes.",
+      "author": "Doug Beckers",
+      "license": "CC BY-SA 4.0",
+      "licenseURL": "http://creativecommons.org/licenses/by-sa/4.0/legalcode",
+      "file": "images/ligustrum-sinense-0.webp"
+    }
+  ],
+  "microstegium-vimineum": [
+    {
+      "label": "Leaves",
+      "author": "BcBaker2390",
+      "license": "CC BY-SA 3.0",
+      "licenseURL": "https://creativecommons.org/licenses/by-sa/3.0/deed.en",
+      "file": "images/microstegium-vimineum-0.webp"
+    }
+  ],
+  "reynoutria-japonica": [
+    {
+      "label": "Plant in bloom",
+      "author": "MdE",
+      "license": "CC BY-SA 3.0",
+      "licenseURL": "https://creativecommons.org/licenses/by-sa/3.0/deed.en",
+      "file": "images/reynoutria-japonica-0.webp"
+    }
+  ],
+  "toxicodendron-radicans": [
+    {
+      "label": "Toxicodendron Radicans",
+      "author": "Cynthia Lauderdale",
+      "license": "CC BY 4.0",
+      "licenseURL": "http://creativecommons.org/licenses/by/4.0/legalcode",
+      "file": "images/toxicodendron-radicans-0.webp"
+    }
+  ],
+  "parthenocissus-quinquefolia": [
+    {
+      "label": "Leaves",
+      "author": "Linnaeus",
+      "license": "CC BY-SA 3.0",
+      "licenseURL": "https://creativecommons.org/licenses/by-sa/3.0/deed.en",
+      "file": "images/parthenocissus-quinquefolia-0.webp"
+    }
+  ],
+  "campsis-radicans": [
+    {
+      "label": "Flowers & Seedpod - July 31 - Warren Co., NC",
+      "author": "Cathy DeWitt",
+      "license": "CC BY 4.0",
+      "licenseURL": "http://creativecommons.org/licenses/by/4.0/legalcode",
+      "file": "images/campsis-radicans-0.webp"
+    }
+  ],
+  "asclepias-syriaca": [
+    {
+      "label": "Form - June - Wake Co., NC",
+      "author": "Cathy DeWitt",
+      "license": "CC BY 4.0",
+      "licenseURL": "http://creativecommons.org/licenses/by/4.0/legalcode",
+      "file": "images/asclepias-syriaca-0.webp"
+    }
+  ],
+  "solidago-canadensis": [
+    {
+      "label": "Flowers - Fall - Wake Co., NC",
+      "author": "Cathy DeWitt",
+      "license": "CC BY 4.0",
+      "licenseURL": "http://creativecommons.org/licenses/by/4.0/legalcode",
+      "file": "images/solidago-canadensis-0.webp"
+    }
+  ],
+  "eupatorium-capillifolium": [
+    {
+      "label": "Upright stems clothed in fine, hair-like leaves.",
+      "author": "Cathy Dewitt",
+      "license": "CC BY 4.0",
+      "licenseURL": "http://creativecommons.org/licenses/by/4.0/legalcode",
+      "file": "images/eupatorium-capillifolium-0.webp"
+    }
+  ],
+  "xanthium-strumarium": [
+    {
+      "label": "Xanthium strumarium",
+      "author": "Stefan.lefnaer",
+      "license": "CC BY-SA 4.0",
+      "licenseURL": "http://creativecommons.org/licenses/by-sa/4.0/legalcode",
+      "file": "images/xanthium-strumarium-0.webp"
+    }
+  ],
+  "perilla-frutescens": [
+    {
+      "label": "Stem and Leaves",
+      "author": "Auckland Museum",
+      "license": "CC BY 4.0",
+      "licenseURL": "http://creativecommons.org/licenses/by/4.0/legalcode",
+      "file": "images/perilla-frutescens-0.webp"
+    }
+  ],
+  "urtica-dioica": [
+    {
+      "label": "Urtica dioica",
+      "author": "Andrey Zharkikh",
+      "license": "CC BY 2.0",
+      "licenseURL": "http://creativecommons.org/licenses/by/2.0/legalcode",
+      "file": "images/urtica-dioica-0.webp"
+    }
+  ],
+  "symphyotrichum-ericoides": [
+    {
+      "label": "Flowers - October - Warren Co., NC",
+      "author": "Cathy DeWitt",
+      "license": "CC BY 4.0",
+      "licenseURL": "http://creativecommons.org/licenses/by/4.0/legalcode",
+      "file": "images/symphyotrichum-ericoides-0.webp"
+    }
+  ],
+  "eclipta-prostrata": [
+    {
+      "label": "leaves and flowers",
+      "author": "Nithin1600",
+      "license": "CC BY-SA 3.0",
+      "licenseURL": "https://creativecommons.org/licenses/by-sa/3.0/deed.en",
+      "file": "images/eclipta-prostrata-0.webp"
+    }
+  ],
+  "rudbeckia-laciniata": [
+    {
+      "label": "Bloom",
+      "author": "Kathy Sill",
+      "license": "CC BY 4.0",
+      "licenseURL": "http://creativecommons.org/licenses/by/4.0/legalcode",
+      "file": "images/rudbeckia-laciniata-0.webp"
+    }
+  ],
+  "helianthus-tuberosus": [
+    {
+      "label": "Helianthus tuberosus",
+      "author": "Dotty Leatherwood",
+      "license": "CC BY 4.0",
+      "licenseURL": "http://creativecommons.org/licenses/by/4.0/legalcode",
+      "file": "images/helianthus-tuberosus-0.webp"
+    }
+  ],
+  "conium-maculatum": [
+    {
+      "label": "Purple splotches on the smooth stem.",
+      "author": "Thayne Tuason",
+      "license": "CC BY-SA 4.0",
+      "licenseURL": "http://creativecommons.org/licenses/by-sa/4.0/legalcode",
+      "file": "images/conium-maculatum-0.webp"
+    }
+  ],
+  "pastinaca-sativa": [
+    {
+      "label": "Pastinaca sativa habit by  H. Zell",
+      "author": "H. Zell",
+      "license": "CC BY-SA 3.0",
+      "licenseURL": "https://creativecommons.org/licenses/by-sa/3.0/deed.en",
+      "file": "images/pastinaca-sativa-0.webp"
+    }
+  ],
+  "daucus-carota": [
+    {
+      "label": "Daucus carota",
+      "author": "Forest and Kim Starr",
+      "license": "CC BY 2.0",
+      "licenseURL": "http://creativecommons.org/licenses/by/2.0/legalcode",
+      "file": "images/daucus-carota-0.webp"
+    }
+  ],
+  "achillea-millefolium": [
+    {
+      "label": "White flowers of the species",
+      "author": "Petar Milošević",
+      "license": "CC BY-SA 4.0",
+      "licenseURL": "http://creativecommons.org/licenses/by-sa/4.0/legalcode",
+      "file": "images/achillea-millefolium-0.webp"
+    }
+  ],
+  "anthemis-cotula": [
+    {
+      "label": "leaves and flowers",
+      "author": "Nithin1600",
+      "license": "CC BY-SA 3.0",
+      "licenseURL": "https://creativecommons.org/licenses/by-sa/3.0/deed.en",
+      "file": "images/anthemis-cotula-0.webp"
+    }
+  ],
+  "leucanthemum-vulgare": [
+    {
+      "label": "Leucanthemum vulgare",
+      "author": "Jason Pratt",
+      "license": "CC BY 2.0",
+      "licenseURL": "http://creativecommons.org/licenses/by/2.0/legalcode",
+      "file": "images/leucanthemum-vulgare-0.webp"
+    }
+  ],
+  "oenothera-biennis": [
+    {
+      "label": "Oenothera biennis",
+      "author": "Andreas Rockstein",
+      "license": "CC BY-SA 4.0",
+      "licenseURL": "http://creativecommons.org/licenses/by-sa/4.0/legalcode",
+      "file": "images/oenothera-biennis-0.webp"
+    }
+  ],
+  "impatiens-capensis": [
+    {
+      "label": "Flowers in Cabarrus Co, NC",
+      "author": "K. Andre",
+      "license": "CC BY 2.0",
+      "licenseURL": "http://creativecommons.org/licenses/by/2.0/legalcode",
+      "file": "images/impatiens-capensis-0.webp"
+    }
+  ],
+  "phalaris-arundinacea": [
+    {
+      "label": "Form",
+      "author": "Kor!An (Андрей Корзун)",
+      "license": "CC BY-SA 3.0",
+      "licenseURL": "https://creativecommons.org/licenses/by-sa/3.0/deed.en",
+      "file": "images/phalaris-arundinacea-0.webp"
+    }
+  ],
+  "cyperus-rotundus": [
+    {
+      "label": "Whole plant in bloom",
+      "author": "Forest and Kim Starr",
+      "license": "CC BY 2.0",
+      "licenseURL": "http://creativecommons.org/licenses/by/2.0/legalcode",
+      "file": "images/cyperus-rotundus-0.webp"
+    }
+  ],
+  "dactylis-glomerata": [
+    {
+      "label": "Whole plant in bloom",
+      "author": "Harry Rose",
+      "license": "CC BY 2.0",
+      "licenseURL": "http://creativecommons.org/licenses/by/2.0/legalcode",
+      "file": "images/dactylis-glomerata-0.webp"
+    }
+  ],
+  "agrostis-stolonifera": [
+    {
+      "label": "Uprooted plant showing stolons.",
+      "author": "Forest & Kim Starr",
+      "license": "CC BY 2.0",
+      "licenseURL": "http://creativecommons.org/licenses/by/2.0/legalcode",
+      "file": "images/agrostis-stolonifera-0.webp"
+    }
+  ],
+  "barbarea-vulgaris": [
+    {
+      "label": "Form",
+      "author": "Enrico Blasutto",
+      "license": "CC BY-SA 3.0",
+      "licenseURL": "https://creativecommons.org/licenses/by-sa/3.0/deed.en",
+      "file": "images/barbarea-vulgaris-0.webp"
+    }
+  ],
+  "thlaspi-arvense": [
+    {
+      "label": "Form",
+      "author": "H. Zell",
+      "license": "CC BY-SA 3.0",
+      "licenseURL": "https://creativecommons.org/licenses/by-sa/3.0/deed.en",
+      "file": "images/thlaspi-arvense-0.webp"
+    }
+  ],
+  "rumex-acetosella": [
+    {
+      "label": "Rumex acetosella",
+      "author": "Forest and Kim Starr",
+      "license": "CC BY 2.0",
+      "licenseURL": "http://creativecommons.org/licenses/by/2.0/legalcode",
+      "file": "images/rumex-acetosella-0.webp"
+    }
+  ],
+  "mollugo-verticillata": [
+    {
+      "label": "Mollugo verticillata",
+      "author": "Krzysztof Ziarnek, Kenraiz",
+      "license": "CC BY-SA 4.0",
+      "licenseURL": "http://creativecommons.org/licenses/by-sa/4.0/legalcode",
+      "file": "images/mollugo-verticillata-0.webp"
+    }
+  ],
+  "fatoua-villosa": [
+    {
+      "label": "Fatoua villosa leaves and flowers",
+      "author": "Melissa McMasters",
+      "license": "CC BY 2.0",
+      "licenseURL": "http://creativecommons.org/licenses/by/2.0/legalcode",
+      "file": "images/fatoua-villosa-0.webp"
+    }
   ]
 };
