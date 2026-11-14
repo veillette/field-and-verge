@@ -313,5 +313,275 @@ const photos = {
       "licenseURL": "https://creativecommons.org/licenses/by-sa/3.0/deed.en",
       "file": "images/erigeron-canadensis-0.webp"
     }
+  ],
+  "oxalis-corniculata": [
+    {
+      "label": "Oxalis corniculata Creeping-Woodsorrel",
+      "author": "F. A.",
+      "license": "CC BY 2.0",
+      "licenseURL": "http://creativecommons.org/licenses/by/2.0/legalcode",
+      "file": "images/oxalis-corniculata-0.webp"
+    }
+  ],
+  "malva-neglecta": [
+    {
+      "label": "Malva neglecta",
+      "author": "Forest and Kim Starr",
+      "license": "CC BY 2.0",
+      "licenseURL": "http://creativecommons.org/licenses/by/2.0/legalcode",
+      "file": "images/malva-neglecta-0.webp"
+    }
+  ],
+  "sonchus-asper": [
+    {
+      "label": "Sonchus asper",
+      "author": "Kenpei",
+      "license": "CC BY-SA 3.0",
+      "licenseURL": "https://creativecommons.org/licenses/by-sa/3.0/deed.en",
+      "file": "images/sonchus-asper-0.webp"
+    }
+  ],
+  "arctium-minus": [
+    {
+      "label": "flower and leaves",
+      "author": "Jason Hollinger",
+      "license": "CC BY 2.0",
+      "licenseURL": "http://creativecommons.org/licenses/by/2.0/legalcode",
+      "file": "images/arctium-minus-0.webp"
+    }
+  ],
+  "cirsium-vulgare": [
+    {
+      "label": "Cirsium vulgare",
+      "author": "Donald Hobern",
+      "license": "CC BY 2.0",
+      "licenseURL": "http://creativecommons.org/licenses/by/2.0/legalcode",
+      "file": "images/cirsium-vulgare-0.webp"
+    }
+  ],
+  "cirsium-arvense": [
+    {
+      "label": "Pink thistle flowers & spiny leaves",
+      "author": "Sandy Wolkenberg",
+      "license": "CC BY 4.0",
+      "licenseURL": "http://creativecommons.org/licenses/by/4.0/legalcode",
+      "file": "images/cirsium-arvense-0.webp"
+    }
+  ],
+  "sorghum-halepense": [
+    {
+      "label": "Form - Summer - Warren Co., NC",
+      "author": "Cathy DeWitt",
+      "license": "CC BY 4.0",
+      "licenseURL": "http://creativecommons.org/licenses/by/4.0/legalcode",
+      "file": "images/sorghum-halepense-0.webp"
+    }
+  ],
+  "setaria-pumila": [
+    {
+      "label": "Setaria pumila",
+      "author": "Harry Rose",
+      "license": "CC BY 2.0",
+      "licenseURL": "http://creativecommons.org/licenses/by/2.0/legalcode",
+      "file": "images/setaria-pumila-0.webp"
+    }
+  ],
+  "digitaria-ischaemum": [
+    {
+      "label": "Form",
+      "author": "NY State IPM Program",
+      "license": "CC BY 2.0",
+      "licenseURL": "http://creativecommons.org/licenses/by/2.0/legalcode",
+      "file": "images/digitaria-ischaemum-0.webp"
+    }
+  ],
+  "veronica-arvensis": [
+    {
+      "label": "Close up of flower and leaves",
+      "author": "Walter Siegmund",
+      "license": "CC BY-SA 3.0",
+      "licenseURL": "https://creativecommons.org/licenses/by-sa/3.0/deed.en",
+      "file": "images/veronica-arvensis-0.webp"
+    }
+  ],
+  "geranium-carolinianum": [
+    {
+      "label": "flower, spring, Union County, NC",
+      "author": "Kristyna Culp",
+      "license": "CC BY 4.0",
+      "licenseURL": "http://creativecommons.org/licenses/by/4.0/legalcode",
+      "file": "images/geranium-carolinianum-0.webp"
+    }
+  ],
+  "commelina-communis": [
+    {
+      "label": "leaves and flower",
+      "author": "Bogdan",
+      "license": "CC BY-SA 3.0",
+      "licenseURL": "https://creativecommons.org/licenses/by-sa/3.0/deed.en",
+      "file": "images/commelina-communis-0.webp"
+    }
+  ],
+  "acalypha-rhomboidea": [
+    {
+      "label": "Tiny yellow flowers with large lobed bracts",
+      "author": "Kenraiz",
+      "license": "CC BY-SA 4.0",
+      "licenseURL": "http://creativecommons.org/licenses/by-sa/4.0/legalcode",
+      "file": "images/acalypha-rhomboidea-0.webp"
+    }
+  ],
+  "persicaria-pensylvanica": [
+    {
+      "label": "Flowers & Leaves - Oct. 20 - Warren Co., NC",
+      "author": "Cathy DeWitt",
+      "license": "CC BY 4.0",
+      "licenseURL": "http://creativecommons.org/licenses/by/4.0/legalcode",
+      "file": "images/persicaria-pensylvanica-0.webp"
+    }
+  ],
+  "phytolacca-americana": [
+    {
+      "label": "Fruit",
+      "author": "Cathy Dewitt",
+      "license": "CC BY 4.0",
+      "licenseURL": "http://creativecommons.org/licenses/by/4.0/legalcode",
+      "file": "images/phytolacca-americana-0.webp"
+    }
+  ],
+  "solanum-carolinense": [
+    {
+      "label": "Solanum carolinense",
+      "author": "Fritz Flohr Reynolds",
+      "license": "CC BY-SA 3.0",
+      "licenseURL": "https://creativecommons.org/licenses/by-sa/3.0/deed.en",
+      "file": "images/solanum-carolinense-0.webp"
+    }
+  ],
+  "datura-stramonium": [
+    {
+      "label": "Datura-stramonium",
+      "author": "Forest and Kim Starr",
+      "license": "CC BY 2.0",
+      "licenseURL": "http://creativecommons.org/licenses/by/2.0/legalcode",
+      "file": "images/datura-stramonium-0.webp"
+    }
+  ],
+  "ipomoea-purpurea": [
+    {
+      "label": "Ipomea purpurea",
+      "author": "NY State IPM at Cornell University",
+      "license": "CC BY 2.0",
+      "licenseURL": "http://creativecommons.org/licenses/by/2.0/legalcode",
+      "file": "images/ipomoea-purpurea-0.webp"
+    }
+  ],
+  "calystegia-sepium": [
+    {
+      "label": "Form",
+      "author": "Sandra Jones",
+      "license": "CC BY 4.0",
+      "licenseURL": "http://creativecommons.org/licenses/by/4.0/legalcode",
+      "file": "images/calystegia-sepium-0.webp"
+    }
+  ],
+  "equisetum-arvense": [
+    {
+      "label": "Form",
+      "author": "H. Zell",
+      "license": "CC BY-SA 3.0",
+      "licenseURL": "https://creativecommons.org/licenses/by-sa/3.0/deed.en",
+      "file": "images/equisetum-arvense-0.webp"
+    }
+  ],
+  "trifolium-pratense": [
+    {
+      "label": "Mature plants in bloom",
+      "author": "Sanja565658",
+      "license": "CC BY-SA 3.0",
+      "licenseURL": "https://creativecommons.org/licenses/by-sa/3.0/deed.en",
+      "file": "images/trifolium-pratense-0.webp"
+    }
+  ],
+  "trifolium-dubium": [
+    {
+      "label": "Trifolium dubium",
+      "author": "John Munt",
+      "license": "CC BY 2.0",
+      "licenseURL": "http://creativecommons.org/licenses/by/2.0/legalcode",
+      "file": "images/trifolium-dubium-0.webp"
+    }
+  ],
+  "medicago-lupulina": [
+    {
+      "label": "Flowers",
+      "author": "Tigreen",
+      "license": "CC BY 2.0",
+      "licenseURL": "http://creativecommons.org/licenses/by/2.0/legalcode",
+      "file": "images/medicago-lupulina-0.webp"
+    }
+  ],
+  "medicago-polymorpha": [
+    {
+      "label": "Reddish stem with fruits covered in burrs.",
+      "author": "Krzysztof Ziarnek, Kenraiz",
+      "license": "CC BY-SA 4.0",
+      "licenseURL": "http://creativecommons.org/licenses/by-sa/4.0/legalcode",
+      "file": "images/medicago-polymorpha-0.webp"
+    }
+  ],
+  "kummerowia-striata": [
+    {
+      "label": "Flowers",
+      "author": "Harry Rose",
+      "license": "CC BY 2.0",
+      "licenseURL": "http://creativecommons.org/licenses/by/2.0/legalcode",
+      "file": "images/kummerowia-striata-0.webp"
+    }
+  ],
+  "lespedeza-cuneata": [
+    {
+      "label": "Flowers",
+      "author": "dalgail",
+      "license": "CC BY-SA 3.0",
+      "licenseURL": "https://creativecommons.org/licenses/by-sa/3.0/deed.en",
+      "file": "images/lespedeza-cuneata-0.webp"
+    }
+  ],
+  "euphorbia-peplus": [
+    {
+      "label": "Close-up of leafy shoots with cyathia.",
+      "author": "Kevin Thiele",
+      "license": "CC BY 2.0",
+      "licenseURL": "http://creativecommons.org/licenses/by/2.0/legalcode",
+      "file": "images/euphorbia-peplus-0.webp"
+    }
+  ],
+  "hypochaeris-radicata": [
+    {
+      "label": "Form",
+      "author": "Harry Rose",
+      "license": "CC BY 2.0",
+      "licenseURL": "http://creativecommons.org/licenses/by/2.0/legalcode",
+      "file": "images/hypochaeris-radicata-0.webp"
+    }
+  ],
+  "verbascum-thapsus": [
+    {
+      "label": "Form",
+      "author": "Stan Shebs",
+      "license": "CC BY-SA 3.0",
+      "licenseURL": "https://creativecommons.org/licenses/by-sa/3.0/deed.en",
+      "file": "images/verbascum-thapsus-0.webp"
+    }
+  ],
+  "artemisia-vulgaris": [
+    {
+      "label": "Leaves",
+      "author": "A. J. T. Johnsingh, WWF-India and NCF",
+      "license": "CC BY-SA 4.0",
+      "licenseURL": "http://creativecommons.org/licenses/by-sa/4.0/legalcode",
+      "file": "images/artemisia-vulgaris-0.webp"
+    }
   ]
 };

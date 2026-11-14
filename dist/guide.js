@@ -382,6 +382,486 @@ const weeds = [
     "habitat": "Roadsides, gardens, and fields with exposed soil.",
     "compare": "Annual fleabane typically has more conspicuous white rays. Horseweed heads are smaller and less daisy-like.",
     "fact": "Its tiny, tufted fruits can drift on air currents and colonize exposed soil."
+  },
+  {
+    "id": "oxalis-corniculata",
+    "name": "Creeping woodsorrel",
+    "alias": "creeping oxalis",
+    "color": "Yellow flowers",
+    "life": "Perennial",
+    "summary": "A low mat with heart-shaped leaflets and five-petaled yellow flowers.",
+    "clues": [
+      "Each leaf has three heart-shaped leaflets.",
+      "Slender stems often root at the joints.",
+      "Seed capsules are narrow and upright."
+    ],
+    "habitat": "Lawns, pavement cracks, garden beds, and containers.",
+    "compare": "Yellow woodsorrel usually has a more upright habit; white clover has rounded leaflets and clustered flowers.",
+    "fact": "Mature seed capsules can pop open and scatter their seeds."
+  },
+  {
+    "id": "malva-neglecta",
+    "name": "Common mallow",
+    "alias": "cheeseweed",
+    "color": "White to pink flowers",
+    "life": "Annual or biennial",
+    "summary": "Rounded, scalloped leaves and pale flowers on spreading stems.",
+    "clues": [
+      "Leaf veins fan out from the base of the blade.",
+      "Five pale petals may have darker veins.",
+      "Flattened round fruits divide into wedge-shaped segments."
+    ],
+    "habitat": "Garden beds, paths, and disturbed soil.",
+    "compare": "Ground ivy has opposite leaves and two-lipped flowers. Mallow leaves alternate along the stem.",
+    "fact": "The segmented fruits resemble tiny cheese wheels, which inspired the name cheeseweed."
+  },
+  {
+    "id": "sonchus-asper",
+    "name": "Spiny sowthistle",
+    "alias": "prickly sowthistle",
+    "color": "Yellow flowers",
+    "life": "Annual",
+    "summary": "Glossy prickly leaves clasp upright stems topped by yellow flower heads.",
+    "clues": [
+      "Leaf margins bear small prickles and the leaf bases clasp the stem.",
+      "Rounded lobes curl around the stem at the leaf base.",
+      "Several yellow heads appear on branched stalks."
+    ],
+    "habitat": "Garden beds, roadsides, and sunny disturbed ground.",
+    "compare": "Dandelions have basal leaves and one head per bare stalk; sowthistle has leafy, branching stems.",
+    "fact": "Its tufted fruits travel on the wind, much like dandelion fruits."
+  },
+  {
+    "id": "arctium-minus",
+    "name": "Common burdock",
+    "alias": "lesser burdock",
+    "color": "Purple flowers",
+    "life": "Biennial",
+    "summary": "Large heart-shaped leaves and purple flower heads that become hooked burrs.",
+    "clues": [
+      "Lower leaves are large, with pale woolly undersides.",
+      "Purple flowers emerge from rounded heads covered in hooked bracts.",
+      "Mature heads cling readily to fabric and fur."
+    ],
+    "habitat": "Fence lines, pasture edges, roadsides, and disturbed ground.",
+    "compare": "Docks can have large basal leaves, but they bear branching fruit clusters without hooked burrs.",
+    "fact": "A burdock rosette typically spends its first year storing reserves before flowering in its second year."
+  },
+  {
+    "id": "cirsium-vulgare",
+    "name": "Bull thistle",
+    "alias": "spear thistle",
+    "color": "Purple flowers",
+    "life": "Biennial",
+    "summary": "Large purple flower heads sit above sharply spined leaves and prickly wings on the stem.",
+    "clues": [
+      "Stem leaves extend downward into spiny wings.",
+      "The deeply lobed leaves have sharp spine tips.",
+      "Each large flower head is enclosed in a cup of spiny bracts."
+    ],
+    "habitat": "Pastures, roadsides, and open disturbed ground.",
+    "compare": "Canada thistle often forms colonies and has smaller heads and stems without spiny wings.",
+    "fact": "Bull thistle usually flowers in its second year and spreads by seed."
+  },
+  {
+    "id": "cirsium-arvense",
+    "name": "Canada thistle",
+    "alias": "creeping thistle",
+    "color": "Purple flowers",
+    "life": "Perennial",
+    "summary": "Colonies of prickly-leaved shoots bear clusters of small pink-purple flower heads.",
+    "clues": [
+      "Alternate leaves have lobed, spiny margins.",
+      "The upright stems lack the conspicuous prickly wings of bull thistle.",
+      "Several small heads often cluster near branch tips."
+    ],
+    "habitat": "Fields, gardens, roadsides, and open disturbed ground.",
+    "compare": "Bull thistle usually has larger heads and a stem lined with sharp, spiny wings.",
+    "fact": "Creeping roots send up new shoots, so a patch can contain many stems from the same plant."
+  },
+  {
+    "id": "sorghum-halepense",
+    "name": "Johnsongrass",
+    "alias": "Johnson grass",
+    "color": "Grasses",
+    "life": "Perennial",
+    "summary": "A tall grass with a conspicuous pale midrib and a loose, branching seed head.",
+    "clues": [
+      "Wide blades have a prominent whitish midrib.",
+      "Mature seed heads branch into a loose, pyramidal spray.",
+      "Thick underground rhizomes link and spread shoots."
+    ],
+    "habitat": "Roadsides, field margins, and sunny disturbed soil.",
+    "compare": "Shattercane can look similar above ground but lacks Johnsongrass's long underground rhizomes.",
+    "fact": "This warm-season grass spreads both by seed and through its rhizomes."
+  },
+  {
+    "id": "setaria-pumila",
+    "name": "Yellow foxtail",
+    "alias": "yellow bristlegrass",
+    "color": "Grasses",
+    "life": "Summer annual",
+    "summary": "A cylindrical seed head develops yellowish bristles, and long hairs grow near the base of the blade.",
+    "clues": [
+      "The bottlebrush-shaped seed head is usually upright.",
+      "Bristles often turn yellow to tawny as the head matures.",
+      "Look for long hairs on the upper surface near the blade base."
+    ],
+    "habitat": "Sunny garden beds, fields, roadsides, and other disturbed sites.",
+    "compare": "Green foxtail generally lacks the long hairs at the base of the upper blade surface.",
+    "fact": "Bristles remain on the seed head after the mature spikelets fall."
+  },
+  {
+    "id": "digitaria-ischaemum",
+    "name": "Smooth crabgrass",
+    "alias": "small crabgrass",
+    "color": "Grasses",
+    "life": "Summer annual",
+    "summary": "Spreading stems carry largely smooth blades and fingerlike seed branches.",
+    "clues": [
+      "The leaf blades usually have few or no hairs.",
+      "A few hairs may occur at the blade base or sheath opening.",
+      "Slender seed branches spread from near the tip of each flowering stalk."
+    ],
+    "habitat": "Sparse lawns, pavement edges, and sunny disturbed soil.",
+    "compare": "Large crabgrass typically has much hairier leaf blades and sheaths.",
+    "fact": "Its low, spreading stems can produce seed heads below ordinary mowing height."
+  },
+  {
+    "id": "veronica-arvensis",
+    "name": "Corn speedwell",
+    "alias": "wall speedwell",
+    "color": "Blue flowers",
+    "life": "Winter annual",
+    "summary": "Tiny blue flowers sit among narrow upper leaves on small, often hairy stems.",
+    "clues": [
+      "Lower leaves are broad, toothed, and paired.",
+      "Upper leaves are narrower and alternate along the flowering shoot.",
+      "Small blue flowers sit on very short stalks or directly at the upper joints."
+    ],
+    "habitat": "Thin lawns, garden beds, and disturbed ground in cool weather.",
+    "compare": "Persian speedwell has larger flowers on long, slender stalks.",
+    "fact": "The small, flattened seed capsules have a notch that gives them a heart-shaped outline."
+  },
+  {
+    "id": "geranium-carolinianum",
+    "name": "Carolina geranium",
+    "alias": "Carolina cranesbill",
+    "color": "White to pink flowers",
+    "life": "Winter annual",
+    "summary": "Deeply divided leaves accompany pale flowers and seed fruits shaped like long beaks.",
+    "clues": [
+      "Five main lobes radiate from the center of each leaf and are further divided.",
+      "Small flowers have five pale pink or whitish petals.",
+      "Mature fruits have a slender, upright beak."
+    ],
+    "habitat": "Lawns, open woods, roadsides, and disturbed ground.",
+    "compare": "Common mallow has more shallowly lobed leaves and flattened, wheel-shaped fruits.",
+    "fact": "The pointed fruit gives the geranium family its familiar cranesbill name."
+  },
+  {
+    "id": "commelina-communis",
+    "name": "Asiatic dayflower",
+    "alias": "common dayflower",
+    "color": "Blue flowers",
+    "life": "Summer annual",
+    "summary": "Two bright blue petals sit above one much smaller pale petal.",
+    "clues": [
+      "Leaves alternate on succulent stems and clasp the stem in a sheath.",
+      "The two large blue petals dominate the flower.",
+      "A folded green bract cups the flower base."
+    ],
+    "habitat": "Moist garden beds, shaded borders, and stream edges.",
+    "compare": "Virginia dayflower usually has blue petals of more nearly equal size. Asiatic dayflower has a small white lower petal.",
+    "fact": "Individual flowers generally open in the morning and fade the same day."
+  },
+  {
+    "id": "acalypha-rhomboidea",
+    "name": "Common three-seed mercury",
+    "alias": "rhombic copperleaf",
+    "color": "Greenish flowers",
+    "life": "Summer annual",
+    "summary": "An upright plant with alternate toothed leaves and jagged green bracts at the leaf joints.",
+    "clues": [
+      "Leaves are oval to diamond-shaped with finely toothed edges.",
+      "The leaves alternate up the stem.",
+      "Deeply lobed bracts surround tiny flowers at the leaf joints."
+    ],
+    "habitat": "Gardens, cultivated fields, and woodland edges with disturbed soil.",
+    "compare": "Lambsquarters may have similar leaf outlines. Three-seed mercury has jagged flower bracts and lacks the mealy coating of young lambsquarters.",
+    "fact": "The small fruit typically splits into three parts, each holding a seed."
+  },
+  {
+    "id": "persicaria-pensylvanica",
+    "name": "Pennsylvania smartweed",
+    "alias": "pinkweed",
+    "color": "White to pink flowers",
+    "life": "Summer annual",
+    "summary": "Pink flower spikes top stems with swollen, papery-sheathed joints.",
+    "clues": [
+      "Alternate leaves are narrow and lance-shaped.",
+      "A thin sheath surrounds each swollen stem joint.",
+      "Small pink flowers cluster in short, dense spikes."
+    ],
+    "habitat": "Moist garden beds, ditches, fields, and pond margins.",
+    "compare": "Lady’s thumb often has a dark leaf blotch and short bristles along the top of the joint sheath. Check the sheath as well as the leaf.",
+    "fact": "Its shiny, hard fruits are a food source for waterfowl and other birds."
+  },
+  {
+    "id": "phytolacca-americana",
+    "name": "American pokeweed",
+    "alias": "pokeberry",
+    "color": "White flowers",
+    "life": "Perennial",
+    "summary": "A tall herb with stout stems and dangling clusters of dark berries.",
+    "clues": [
+      "Leaves are large, smooth-edged, and alternate.",
+      "Stems commonly become reddish purple as the plant matures.",
+      "Elongated berry clusters ripen from green to dark purple-black."
+    ],
+    "habitat": "Fence lines, woodland edges, gardens, and disturbed soil.",
+    "compare": "Elderberry is woody, has opposite compound leaves, and carries broad, branching fruit clusters.",
+    "fact": "The berries leave a vivid purple stain. Birds eat the fruit and spread the seeds."
+  },
+  {
+    "id": "solanum-carolinense",
+    "name": "Carolina horsenettle",
+    "alias": "horse nettle",
+    "color": "White to pink flowers",
+    "life": "Perennial",
+    "summary": "Prickly stems bear star-shaped flowers with yellow centers and round fruits.",
+    "clues": [
+      "Stiff prickles occur on stems and along some leaf veins.",
+      "Five pointed petals surround a cone of yellow anthers.",
+      "Round berries ripen from green to yellow."
+    ],
+    "habitat": "Pastures, fields, roadsides, and sunny disturbed ground.",
+    "compare": "Other nightshades may have similar flowers, but check for both prickles and upright stems with shallowly lobed leaves.",
+    "fact": "Despite its name, horsenettle is a nightshade and is related to tomatoes and potatoes."
+  },
+  {
+    "id": "datura-stramonium",
+    "name": "Jimsonweed",
+    "alias": "thorn apple",
+    "color": "White to pink flowers",
+    "life": "Summer annual",
+    "summary": "Large trumpet flowers and spiny egg-shaped capsules grow on a coarse branching plant.",
+    "clues": [
+      "Leaves are broadly oval with irregular, pointed teeth.",
+      "Large flowers are trumpet-shaped, often white or pale lavender.",
+      "The upright seed capsule is covered with stiff spines."
+    ],
+    "habitat": "Farmyards, garden edges, waste ground, and cultivated fields.",
+    "compare": "Bur cucumber climbs with tendrils and has smaller flowers and clusters of bristly fruits.",
+    "fact": "Flowers often open toward evening, when nocturnal moths can visit them."
+  },
+  {
+    "id": "ipomoea-purpurea",
+    "name": "Common morning glory",
+    "alias": "tall morning glory",
+    "color": "Purple flowers",
+    "life": "Summer annual",
+    "summary": "A twining vine with broad heart-shaped leaves and purple, pink, or white funnel flowers.",
+    "clues": [
+      "Leaves are generally heart-shaped with a long pointed tip.",
+      "Stems twine around supports and may be hairy.",
+      "Funnel flowers often have a pale throat and open early in the day."
+    ],
+    "habitat": "Fences, gardens, roadsides, and cultivated ground.",
+    "compare": "Field bindweed has smaller leaves with backward-pointing basal lobes, giving them an arrowhead shape.",
+    "fact": "The flowers usually open in the morning and wilt by later that day."
+  },
+  {
+    "id": "calystegia-sepium",
+    "name": "Hedge bindweed",
+    "alias": "great bindweed",
+    "color": "White to pink flowers",
+    "life": "Perennial",
+    "summary": "Large white trumpets and angular arrow-shaped leaves on a twining vine.",
+    "clues": [
+      "Leaves have broad, angular lobes at their bases.",
+      "Flowers are large white or pale pink funnels.",
+      "Two leafy bracts sit directly below each flower."
+    ],
+    "habitat": "Hedges, stream banks, garden edges, and fence lines.",
+    "compare": "Field bindweed has two small bracts set well below the flower and generally has smaller blooms.",
+    "fact": "Underground rhizomes allow it to send up new shoots beyond the original vine."
+  },
+  {
+    "id": "equisetum-arvense",
+    "name": "Field horsetail",
+    "alias": "common horsetail",
+    "color": "Spore-bearing",
+    "life": "Perennial",
+    "summary": "Jointed green shoots carry rings of fine branches and resemble miniature bottlebrushes.",
+    "clues": [
+      "Green stems have distinct joints and whorled side branches.",
+      "Tiny scale-like leaves form a sheath at each joint.",
+      "Separate pale spring shoots end in a spore cone."
+    ],
+    "habitat": "Damp roadsides, ditches, and moist sandy or gravelly soil.",
+    "compare": "Scouring rush typically has tall, mostly unbranched green stems, often with dark bands at the joints.",
+    "fact": "Horsetails reproduce by spores and spread underground by rhizomes."
+  },
+  {
+    "id": "trifolium-pratense",
+    "name": "Red clover",
+    "alias": "meadow clover",
+    "color": "Purple flowers",
+    "life": "Short-lived perennial",
+    "summary": "Rounded pink-purple flower heads top leafy stems with three pale-marked leaflets.",
+    "clues": [
+      "Leaves usually have three oval leaflets with faint pale chevrons.",
+      "Pink-purple flower heads sit just above the upper leaves.",
+      "Stems usually rise above the ground rather than forming rooting runners."
+    ],
+    "habitat": "Lawns, meadows, pasture edges, and roadsides.",
+    "compare": "White clover creeps on rooting stems and usually holds white heads on long stalks above its leaves.",
+    "fact": "Bumblebees can reach nectar deep inside the tubular florets."
+  },
+  {
+    "id": "trifolium-dubium",
+    "name": "Lesser trefoil",
+    "alias": "suckling clover",
+    "color": "Yellow flowers",
+    "life": "Annual",
+    "summary": "A low, fine-stemmed clover with three leaflets and small clusters of yellow flowers.",
+    "clues": [
+      "Leaves consist of three small, rounded leaflets.",
+      "Tiny yellow pea flowers cluster into loose, rounded heads.",
+      "Faded flowers often remain attached and turn pale brown."
+    ],
+    "habitat": "Thin lawns, short turf, and disturbed ground.",
+    "compare": "Black medic develops distinct black pods at maturity. Lesser trefoil retains the brown remnants of its flowers around the fruits.",
+    "fact": "Its small yellow blooms can be easy to miss even in a dense patch."
+  },
+  {
+    "id": "medicago-lupulina",
+    "name": "Black medic",
+    "alias": "yellow trefoil",
+    "color": "Yellow flowers",
+    "life": "Annual or short-lived perennial",
+    "summary": "Small yellow flower clusters and three oval leaflets on low, spreading stems.",
+    "clues": [
+      "The center leaflet sits on a slightly longer stalk than the side leaflets.",
+      "Tiny yellow pea flowers form compact clusters.",
+      "Small pods darken to black as they mature."
+    ],
+    "habitat": "Thin lawns, paths, roadsides, and compacted ground.",
+    "compare": "Lesser trefoil has yellow flower clusters too. Look for black pods and the small pointed tip on each medic leaflet.",
+    "fact": "Its common name refers to the black mature pods."
+  },
+  {
+    "id": "medicago-polymorpha",
+    "name": "Burclover",
+    "alias": "toothed bur clover",
+    "color": "Yellow flowers",
+    "life": "Annual",
+    "summary": "Three toothed leaflets and small yellow flowers give way to tightly coiled pods.",
+    "clues": [
+      "The three leaflets have toothed outer margins.",
+      "Small yellow pea flowers appear in loose clusters.",
+      "Spiraled pods often have hooked prickles."
+    ],
+    "habitat": "Lawns, roadsides, and disturbed ground, especially in milder sites.",
+    "compare": "Black medic has small black pods without the conspicuously spiny coils typical of burclover.",
+    "fact": "The pods can catch on fur and clothing, carrying seeds to new sites."
+  },
+  {
+    "id": "kummerowia-striata",
+    "name": "Common lespedeza",
+    "alias": "Japanese clover annual lespedeza",
+    "color": "Purple flowers",
+    "life": "Summer annual",
+    "summary": "A low, wiry plant with three small oblong leaflets and tiny pink-purple flowers.",
+    "clues": [
+      "Each leaf has three narrow leaflets with prominent parallel side veins.",
+      "Slender stems branch low across the ground.",
+      "Small pea flowers appear singly or in small groups at the leaf joints."
+    ],
+    "habitat": "Sparse lawns, compacted paths, and sunny disturbed ground.",
+    "compare": "White clover has rounded flower heads and stems that readily root at the joints. Common lespedeza has tiny flowers tucked near the stem.",
+    "fact": "Kentucky lawn guides often list it under its older name, annual lespedeza."
+  },
+  {
+    "id": "lespedeza-cuneata",
+    "name": "Sericea lespedeza",
+    "alias": "Chinese bushclover",
+    "color": "White flowers",
+    "life": "Perennial",
+    "summary": "Upright wiry stems carry slender three-part leaves and small pale pea flowers.",
+    "clues": [
+      "Leaves have three narrow, wedge-shaped leaflets.",
+      "Leaflet undersides are often silky or grayish.",
+      "Small cream flowers with purple markings occur near the leaf joints."
+    ],
+    "habitat": "Roadsides, pastures, and open disturbed ground.",
+    "compare": "Common lespedeza is low and spreading. Sericea lespedeza has taller, relatively stiff stems.",
+    "fact": "It was widely planted for erosion control and now spreads into open grasslands."
+  },
+  {
+    "id": "euphorbia-peplus",
+    "name": "Petty spurge",
+    "alias": "garden spurge",
+    "color": "Greenish flowers",
+    "life": "Annual",
+    "summary": "An upright spurge with smooth, spoon-shaped leaves and yellow-green flowering tips.",
+    "clues": [
+      "The main stem stands upright and branches toward the top.",
+      "Leaves are oval to spoon-shaped, with smooth margins.",
+      "Small green cup-shaped structures occur at the tips of the branches."
+    ],
+    "habitat": "Garden beds, containers, and disturbed soil.",
+    "compare": "Spotted spurge spreads flat, with small opposite leaves. Petty spurge is more upright and has larger lower leaves.",
+    "fact": "Its apparent flowers are small cups containing several highly reduced flowers."
+  },
+  {
+    "id": "hypochaeris-radicata",
+    "name": "Common cat’s ear",
+    "alias": "flatweed false dandelion",
+    "color": "Yellow flowers",
+    "life": "Perennial",
+    "summary": "Hairy basal leaves and branched stalks with yellow flower heads.",
+    "clues": [
+      "Roughly hairy leaves form a ground-level rosette.",
+      "The nearly leafless flowering stems often branch.",
+      "Small scale-like bracts may occur along the flower stems."
+    ],
+    "habitat": "Lawns, meadows, and open disturbed ground.",
+    "compare": "Dandelion has an unbranched, hollow stalk with one head. Cat’s ear often has several heads on a branched stalk.",
+    "fact": "The name refers to the fine hairs on the leaves, which can be seen clearly up close."
+  },
+  {
+    "id": "verbascum-thapsus",
+    "name": "Common mullein",
+    "alias": "great mullein",
+    "color": "Yellow flowers",
+    "life": "Biennial",
+    "summary": "Large felted leaves surround a tall, thick spike of yellow flowers.",
+    "clues": [
+      "First-year plants have a basal rosette of soft gray-green leaves.",
+      "Upper leaves extend down the stem in winglike ridges.",
+      "Yellow flowers open a few at a time along an upright spike."
+    ],
+    "habitat": "Dry roadsides, gravel, and open disturbed ground.",
+    "compare": "Moth mullein has greener, less woolly leaves and a looser flower spike with individually stalked flowers.",
+    "fact": "The dense leaf hairs give the plant its felted appearance and help reduce water loss."
+  },
+  {
+    "id": "artemisia-vulgaris",
+    "name": "Common mugwort",
+    "alias": "mugwort",
+    "color": "Greenish flowers",
+    "life": "Perennial",
+    "summary": "Deeply lobed leaves are dark green above and whitish underneath.",
+    "clues": [
+      "Leaves alternate along upright stems.",
+      "Lower leaves are deeply lobed and have felted undersides.",
+      "Tiny greenish flower heads form narrow branching clusters."
+    ],
+    "habitat": "Roadsides, garden edges, and disturbed ground.",
+    "compare": "Common ragweed also has divided leaves, but its leaf undersides lack mugwort’s dense pale felt.",
+    "fact": "It spreads by underground rhizomes and can form a dense colony."
   }
 ];
 
@@ -393,7 +873,8 @@ const colors = {
   "White to pink flowers": "#e5bfd1",
   "Greenish flowers": "#b0c18a",
   Grasses: "#7e9d62",
-  Sedges: "#a1ac55"
+  Sedges: "#a1ac55",
+  "Spore-bearing": "#52847a"
 };
 const filters = ["All weeds", ...Object.keys(colors)];
 const source = id => "https://plants.ces.ncsu.edu/plants/" + id + "/";
