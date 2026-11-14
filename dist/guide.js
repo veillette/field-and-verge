@@ -62,6 +62,326 @@ const weeds = [
     habitat: "Sunny vegetable beds, sidewalk cracks, and other warm, disturbed ground.",
     compare: "Spotted spurge also forms low mats. Its leaves are thinner, and broken stems release milky sap. Purslane has noticeably fleshy leaves.",
     fact: "Purslane can change how it takes up carbon dioxide during drought, using a water-saving pathway common among succulent plants."
+  },
+  {
+    "id": "lamium-purpureum",
+    "name": "Purple deadnettle",
+    "alias": "red deadnettle",
+    "color": "Purple flowers",
+    "life": "Winter annual",
+    "summary": "Look for purplish, triangular upper leaves and small pink-purple flowers on a square stem.",
+    "clues": [
+      "Upper leaves are stalked, crowded near the top, and often reddish purple.",
+      "Leaves grow in opposite pairs and have scalloped edges.",
+      "Two-lipped flowers emerge from the upper leaf joints."
+    ],
+    "habitat": "Lawns, garden beds, fields, and bare soil in early spring.",
+    "compare": "Henbit's rounded upper leaves clasp the stem. Purple deadnettle's upper leaves have short stalks.",
+    "fact": "“Deadnettle” refers to its resemblance to nettles and its lack of stinging hairs."
+  },
+  {
+    "id": "capsella-bursa-pastoris",
+    "name": "Shepherd’s purse",
+    "alias": "shepherds purse",
+    "color": "White flowers",
+    "life": "Annual",
+    "summary": "Tiny white flowers sit above flat, heart-shaped seed pods on a slender stalk.",
+    "clues": [
+      "Young leaves form a ground-level rosette with variable lobing.",
+      "White flowers have four tiny petals.",
+      "Flat, triangular pods have a notch at the broad end."
+    ],
+    "habitat": "Gardens, cultivated fields, and disturbed ground.",
+    "compare": "Hairy bittercress also has tiny white flowers, but its seed pods are long and narrow.",
+    "fact": "The seed pods resemble the small pouches once carried by shepherds."
+  },
+  {
+    "id": "cardamine-hirsuta",
+    "name": "Hairy bittercress",
+    "alias": "shotweed",
+    "color": "White flowers",
+    "life": "Winter annual",
+    "summary": "Round leaflets form a low rosette beneath tiny white flowers and upright, slender pods.",
+    "clues": [
+      "Basal leaves are divided into several rounded leaflets.",
+      "Small white flowers have four petals.",
+      "Slender upright pods rise above the foliage."
+    ],
+    "habitat": "Moist lawns, garden beds, and nursery containers in cool weather.",
+    "compare": "Shepherd’s purse has broad, flat pods with a heart-shaped outline. Bittercress pods are straight and narrow.",
+    "fact": "Ripe pods spring open when disturbed and fling their seeds away from the parent."
+  },
+  {
+    "id": "veronica-persica",
+    "name": "Persian speedwell",
+    "alias": "birdseye speedwell",
+    "color": "Blue flowers",
+    "life": "Winter annual",
+    "summary": "Low, spreading stems carry small blue flowers with dark veins and a pale center.",
+    "clues": [
+      "Rounded to oval leaves have coarsely toothed edges.",
+      "Each flower has four unequal lobes and darker blue veins.",
+      "Flowers emerge singly on slender stalks from upper leaf joints."
+    ],
+    "habitat": "Thin lawns, gardens, and disturbed soil in late winter and spring.",
+    "compare": "Creeping speedwell often bears several smaller, paler flowers in a cluster. Persian speedwell flowers are solitary.",
+    "fact": "Persian speedwell is also called bird’s-eye speedwell for the pale center of its blue flowers."
+  },
+  {
+    "id": "plantago-lanceolata",
+    "name": "Buckhorn plantain",
+    "alias": "ribwort plantain",
+    "color": "Greenish flowers",
+    "life": "Perennial",
+    "summary": "Long, strongly ribbed leaves surround bare stalks topped by short, dark flower spikes.",
+    "clues": [
+      "Narrow lance-shaped leaves grow in a rosette.",
+      "Several strong veins run lengthwise along each leaf.",
+      "Short, dense spikes often show a ring of pale anthers."
+    ],
+    "habitat": "Lawns, pastures, compacted paths, and roadsides.",
+    "compare": "Broadleaf plantain has wide oval leaves and longer, more slender flowering spikes.",
+    "fact": "The pale ring moves upward as flowers open in succession along the spike."
+  },
+  {
+    "id": "rumex-crispus",
+    "name": "Curly dock",
+    "alias": "yellow dock",
+    "color": "Greenish flowers",
+    "life": "Perennial",
+    "summary": "Wavy-edged leaves grow beneath tall flowering stalks that turn rusty brown.",
+    "clues": [
+      "Lower leaves are narrow and elongated with strongly wavy edges.",
+      "A thin, papery sheath wraps the stem at the leaf joints.",
+      "Dense clusters of greenish flowers mature into brown fruiting stalks."
+    ],
+    "habitat": "Roadsides, fields, and moist disturbed soil.",
+    "compare": "Broadleaf dock has broader leaves with more rounded or heart-shaped bases.",
+    "fact": "The dry brown fruit clusters often remain on upright stems well after the growing season."
+  },
+  {
+    "id": "chenopodium-album",
+    "name": "Common lambsquarters",
+    "alias": "white goosefoot",
+    "color": "Greenish flowers",
+    "life": "Summer annual",
+    "summary": "Look for irregularly toothed leaves and a whitish, powdery coating on young growth.",
+    "clues": [
+      "Lower leaves are often triangular to diamond-shaped.",
+      "Young leaves and shoot tips may look dusted with flour.",
+      "Tiny green flowers cluster along the upper stem."
+    ],
+    "habitat": "Vegetable beds, cultivated fields, and bare disturbed soil.",
+    "compare": "Redroot pigweed lacks the pale mealy coating and develops dense, bristly flower spikes.",
+    "fact": "The leaf outline gives the plant another common name, white goosefoot."
+  },
+  {
+    "id": "euphorbia-maculata",
+    "name": "Spotted spurge",
+    "alias": "prostrate spurge",
+    "color": "Greenish flowers",
+    "life": "Summer annual",
+    "summary": "Small opposite leaves, often with dark spots, form a flat mat on reddish stems.",
+    "clues": [
+      "Thin stems spread from a central root and hug the ground.",
+      "Tiny oval leaves grow in opposite pairs and may have maroon blotches.",
+      "Damaged stems release white, milky sap."
+    ],
+    "habitat": "Pavement cracks, sparse lawns, gravel, and hot garden edges.",
+    "compare": "Common purslane has much thicker, succulent leaves and stems. The dark spots on spurge can be faint or absent.",
+    "fact": "Its tiny flower-like structures are actually clusters of highly reduced flowers."
+  },
+  {
+    "id": "cyperus-esculentus",
+    "name": "Yellow nutsedge",
+    "alias": "nutgrass",
+    "color": "Sedges",
+    "life": "Perennial",
+    "summary": "Shiny yellow-green blades often rise above turf, with three rows of leaves and a triangular flowering stem.",
+    "clues": [
+      "Leaves are glossy, narrow, and taper to long points.",
+      "The upright flowering stem is triangular in cross-section.",
+      "Yellow-brown seed clusters form above several long, leaflike bracts."
+    ],
+    "habitat": "Moist lawns, irrigated beds, and poorly drained soil.",
+    "compare": "True grasses usually have leaves in two ranks. On a flowering nutsedge shoot, look for a solid triangular stem and leaves in three ranks.",
+    "fact": "Underground stems produce small tubers that store reserves and can sprout into new plants."
+  },
+  {
+    "id": "poa-annua",
+    "name": "Annual bluegrass",
+    "alias": "Poa",
+    "color": "Grasses",
+    "life": "Usually annual",
+    "summary": "Soft, light-green tufts have boat-shaped leaf tips and small, open seed heads.",
+    "clues": [
+      "The leaf tip curves inward like the bow of a boat.",
+      "The plant forms low, pale-green tufts.",
+      "Seed heads branch into a small, open spray."
+    ],
+    "habitat": "Lawns, compacted paths, and other moist or cool disturbed sites.",
+    "compare": "Kentucky bluegrass also has boat-shaped leaf tips. It typically spreads by underground stems, while annual bluegrass usually forms tufts.",
+    "fact": "Annual bluegrass can form seed heads even under closely mown turf."
+  },
+  {
+    "id": "eleusine-indica",
+    "name": "Goosegrass",
+    "alias": "silver crabgrass",
+    "color": "Grasses",
+    "life": "Summer annual",
+    "summary": "Flattened, whitish stems radiate from the center beneath fingerlike seed spikes.",
+    "clues": [
+      "Leaves and stems spread outward from a pale, compressed center.",
+      "Several stiff spikes emerge near the tip of the seed stalk.",
+      "Seeds are arranged in closely spaced rows along the spikes."
+    ],
+    "habitat": "Compacted turf, paths, parking edges, and sunny bare soil.",
+    "compare": "Large crabgrass has hairy blades and sheaths. Goosegrass has a conspicuously flattened, often silvery base.",
+    "fact": "The pale center explains the nickname silver crabgrass."
+  },
+  {
+    "id": "setaria-viridis",
+    "name": "Green foxtail",
+    "alias": "bottle grass",
+    "color": "Grasses",
+    "life": "Summer annual",
+    "summary": "Upright grass with a narrow, bristly seed head shaped like a small bottlebrush.",
+    "clues": [
+      "Seed heads are cylindrical and usually stand upright.",
+      "Green or purplish bristles surround the spikelets.",
+      "The ligule, where the blade meets the sheath, is a fringe of hairs."
+    ],
+    "habitat": "Cultivated beds, fields, roadsides, and sunny disturbed soil.",
+    "compare": "Yellow foxtail has a coarser seed head and long hairs near the base of the upper surface of its leaf blade.",
+    "fact": "The bristles remain on the head after the mature spikelets fall."
+  },
+  {
+    "id": "allium-vineale",
+    "name": "Wild garlic",
+    "alias": "crow garlic",
+    "color": "White to pink flowers",
+    "life": "Perennial",
+    "summary": "Slender, hollow leaves grow in clumps from underground bulbs and may look like grass.",
+    "clues": [
+      "Leaves are narrow and tubular, with a hollow center.",
+      "Plants grow from small underground bulbs.",
+      "Flowering stems often carry a cluster of small aerial bulbils."
+    ],
+    "habitat": "Lawns, pastures, roadsides, and fields in cool weather.",
+    "compare": "Wild onion generally has flat, solid leaves. Check the leaf cross-section and the structure at the top of a flowering stalk.",
+    "fact": "Its aerial bulbils can drop to the ground and grow into new plants."
+  },
+  {
+    "id": "convolvulus-arvensis",
+    "name": "Field bindweed",
+    "alias": "creeping Jenny",
+    "color": "White to pink flowers",
+    "life": "Perennial",
+    "summary": "Twining stems bear small arrow-shaped leaves and white or pale pink funnel flowers.",
+    "clues": [
+      "Leaves have two small lobes at the base, creating an arrowhead shape.",
+      "White or pink flowers have a funnel-shaped corolla.",
+      "Two small bracts sit on the flower stalk below the bloom."
+    ],
+    "habitat": "Sunny gardens, roadsides, cultivated fields, and disturbed soil.",
+    "compare": "Hedge bindweed usually has larger flowers and two large bracts that clasp the base of the bloom.",
+    "fact": "Its deep root system can send up new shoots from surviving root fragments."
+  },
+  {
+    "id": "cichorium-intybus",
+    "name": "Chicory",
+    "alias": "blue sailors",
+    "color": "Blue flowers",
+    "life": "Perennial",
+    "summary": "Blue flower heads sit close to the branches of a tall, wiry roadside plant.",
+    "clues": [
+      "Lower leaves can be deeply lobed and form a basal rosette.",
+      "Upper leaves are smaller and sit on stiff, branching stems.",
+      "Blue flower heads have squared-off, finely toothed ray tips."
+    ],
+    "habitat": "Sunny roadsides, dry fields, and disturbed ground.",
+    "compare": "Dandelion has a single head on each bare stalk. Chicory grows on branching stems and usually has blue flower heads.",
+    "fact": "Chicory flower heads typically open in the morning and close later in the day."
+  },
+  {
+    "id": "ambrosia-artemisiifolia",
+    "name": "Common ragweed",
+    "alias": "annual ragweed",
+    "color": "Greenish flowers",
+    "life": "Summer annual",
+    "summary": "Deeply divided leaves sit below narrow spikes of small greenish flower clusters.",
+    "clues": [
+      "Leaves are deeply divided into irregular lobes.",
+      "Lower leaves often occur in opposite pairs and upper leaves alternate.",
+      "Male flower clusters hang along slender stalks at branch tips."
+    ],
+    "habitat": "Roadsides, fields, and disturbed garden soil.",
+    "compare": "Mugwort often has conspicuously pale, felted leaf undersides and spreads by rhizomes. Common ragweed grows as an annual.",
+    "fact": "The small flowers release airborne pollen, a major contributor to late-summer hay fever."
+  },
+  {
+    "id": "potentilla-indica",
+    "name": "Mock strawberry",
+    "alias": "Indian strawberry Duchesnea indica",
+    "color": "Yellow flowers",
+    "life": "Perennial",
+    "summary": "A creeping plant with three toothed leaflets, yellow flowers, and upright red fruit.",
+    "clues": [
+      "Leaves are divided into three toothed leaflets.",
+      "Flowers have five yellow petals.",
+      "Round red fruits stand upright and have a bumpy surface."
+    ],
+    "habitat": "Lawns, garden beds, and partly shaded ground.",
+    "compare": "Wild strawberries typically have white flowers, while mock strawberry flowers are yellow.",
+    "fact": "The plant sends out runners that root and produce new plants along the ground."
+  },
+  {
+    "id": "polygonum-aviculare",
+    "name": "Prostrate knotweed",
+    "alias": "common knotgrass",
+    "color": "White to pink flowers",
+    "life": "Annual",
+    "summary": "Tough, wiry stems form low mats with small oval leaves and papery joints.",
+    "clues": [
+      "Slender stems spread across the ground from a central root.",
+      "Small oval leaves alternate along the stems.",
+      "Tiny flowers and papery sheaths occur at the leaf joints."
+    ],
+    "habitat": "Compacted paths, pavement cracks, athletic fields, and worn patches of lawn.",
+    "compare": "Spotted spurge has opposite leaves and milky sap. Knotweed has alternate leaves and papery sheaths.",
+    "fact": "Prostrate knotweed can establish early in spring in bare soil heavily compacted by foot traffic."
+  },
+  {
+    "id": "galium-aparine",
+    "name": "Catchweed bedstraw",
+    "alias": "cleavers sticky willy",
+    "color": "White flowers",
+    "life": "Annual",
+    "summary": "Narrow leaves form rings around weak square stems that cling to other plants.",
+    "clues": [
+      "Leaves appear in whorls around the stem.",
+      "Small backward-pointing hooks make the stems and leaves catch on fabric.",
+      "Tiny white flowers develop into pairs of round, bristly fruits."
+    ],
+    "habitat": "Hedgerows, garden borders, and moist disturbed areas.",
+    "compare": "Smooth bedstraw has smoother stems and fruits. Feel or look for the hooked bristles on catchweed bedstraw.",
+    "fact": "Its hooked fruits hitch rides on fur and clothing, carrying seeds away from the parent plant."
+  },
+  {
+    "id": "erigeron-canadensis",
+    "name": "Horseweed",
+    "alias": "marestail Conyza canadensis",
+    "color": "White flowers",
+    "life": "Annual",
+    "summary": "A tall, leafy stem carries a branched spray of many tiny flower heads.",
+    "clues": [
+      "Young plants begin as a low rosette.",
+      "Narrow alternate leaves crowd the upright stem.",
+      "Numerous small heads at the tip produce seeds with pale tufts."
+    ],
+    "habitat": "Roadsides, gardens, and fields with exposed soil.",
+    "compare": "Annual fleabane typically has more conspicuous white rays. Horseweed heads are smaller and less daisy-like.",
+    "fact": "Its tiny, tufted fruits can drift on air currents and colonize exposed soil."
   }
 ];
 
@@ -69,8 +389,11 @@ const colors = {
   "Yellow flowers": "#f4c853",
   "White flowers": "#fffdf3",
   "Purple flowers": "#a58bc5",
+  "Blue flowers": "#749cc5",
+  "White to pink flowers": "#e5bfd1",
   "Greenish flowers": "#b0c18a",
-  Grasses: "#7e9d62"
+  Grasses: "#7e9d62",
+  Sedges: "#a1ac55"
 };
 const filters = ["All weeds", ...Object.keys(colors)];
 const source = id => "https://plants.ces.ncsu.edu/plants/" + id + "/";

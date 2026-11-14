@@ -126,5 +126,192 @@ const photos = {
       "licenseURL": "http://creativecommons.org/licenses/by/2.0/legalcode",
       "file": "images/portulaca-oleracea-1.webp"
     }
+  ],
+  "lamium-purpureum": [
+    {
+      "label": "Flowering shoots with reddish new leaves & purple flowers",
+      "author": "Cathy DeWitt",
+      "license": "CC BY 4.0",
+      "licenseURL": "http://creativecommons.org/licenses/by/4.0/legalcode",
+      "file": "images/lamium-purpureum-0.webp"
+    }
+  ],
+  "capsella-bursa-pastoris": [
+    {
+      "label": "Capsella bursa-pastoris",
+      "author": "H. Zell",
+      "license": "CC BY-SA 3.0",
+      "licenseURL": "https://creativecommons.org/licenses/by-sa/3.0/deed.en",
+      "file": "images/capsella-bursa-pastoris-0.webp"
+    }
+  ],
+  "cardamine-hirsuta": [
+    {
+      "label": "Cardamine hirsuta",
+      "author": "Harry Rose",
+      "license": "CC BY 2.0",
+      "licenseURL": "http://creativecommons.org/licenses/by/2.0/legalcode",
+      "file": "images/cardamine-hirsuta-0.webp"
+    }
+  ],
+  "veronica-persica": [
+    {
+      "label": "Flowers/Leaves - April 15 - Wake Co., NC",
+      "author": "Cathy DeWitt",
+      "license": "CC BY 4.0",
+      "licenseURL": "http://creativecommons.org/licenses/by/4.0/legalcode",
+      "file": "images/veronica-persica-0.webp"
+    }
+  ],
+  "plantago-lanceolata": [
+    {
+      "label": "Flowerhead w/Bee - June 26 - Warren Co., NC",
+      "author": "Cathy DeWitt",
+      "license": "CC BY 4.0",
+      "licenseURL": "http://creativecommons.org/licenses/by/4.0/legalcode",
+      "file": "images/plantago-lanceolata-0.webp"
+    }
+  ],
+  "rumex-crispus": [
+    {
+      "label": "Form in June - Wake Co., NC",
+      "author": "Cathy DeWitt",
+      "license": "CC BY 4.0",
+      "licenseURL": "http://creativecommons.org/licenses/by/4.0/legalcode",
+      "file": "images/rumex-crispus-0.webp"
+    }
+  ],
+  "chenopodium-album": [
+    {
+      "label": "Small leafy plant with whitish new shoots.",
+      "author": "Harry Rose",
+      "license": "CC BY 2.0",
+      "licenseURL": "http://creativecommons.org/licenses/by/2.0/legalcode",
+      "file": "images/chenopodium-album-0.webp"
+    }
+  ],
+  "euphorbia-maculata": [
+    {
+      "label": "Leaves and Form",
+      "author": "Auckland Museum",
+      "license": "CC BY 4.0",
+      "licenseURL": "http://creativecommons.org/licenses/by/4.0/legalcode",
+      "file": "images/euphorbia-maculata-0.webp"
+    }
+  ],
+  "cyperus-esculentus": [
+    {
+      "label": "Yellow Nutsedge form",
+      "author": "NY State IPM Program at Cornell University",
+      "license": "CC BY 2.0",
+      "licenseURL": "http://creativecommons.org/licenses/by/2.0/legalcode",
+      "file": "images/cyperus-esculentus-0.webp"
+    }
+  ],
+  "poa-annua": [
+    {
+      "label": "Poa annua flower",
+      "author": "James Lindsey at Ecology of Commanster",
+      "license": "CC BY-SA 3.0",
+      "licenseURL": "https://creativecommons.org/licenses/by-sa/3.0/deed.en",
+      "file": "images/poa-annua-0.webp"
+    }
+  ],
+  "eleusine-indica": [
+    {
+      "label": "Grass",
+      "author": "Tauʻolunga",
+      "license": "CC BY-SA 3.0",
+      "licenseURL": "https://creativecommons.org/licenses/by-sa/3.0/deed.en",
+      "file": "images/eleusine-indica-0.webp"
+    }
+  ],
+  "setaria-viridis": [
+    {
+      "label": "Flower - Fall - Warren Co., NC",
+      "author": "Cathy DeWitt",
+      "license": "CC BY 4.0",
+      "licenseURL": "http://creativecommons.org/licenses/by/4.0/legalcode",
+      "file": "images/setaria-viridis-0.webp"
+    }
+  ],
+  "allium-vineale": [
+    {
+      "label": "Allium vineale",
+      "author": "Bex Ross",
+      "license": "CC BY 2.0",
+      "licenseURL": "http://creativecommons.org/licenses/by/2.0/legalcode",
+      "file": "images/allium-vineale-0.webp"
+    }
+  ],
+  "convolvulus-arvensis": [
+    {
+      "label": "leaves and flowers",
+      "author": "Phil Sellens",
+      "license": "CC BY 2.0",
+      "licenseURL": "http://creativecommons.org/licenses/by/2.0/legalcode",
+      "file": "images/convolvulus-arvensis-0.webp"
+    }
+  ],
+  "cichorium-intybus": [
+    {
+      "label": "Cichorium intybus",
+      "author": "Roberto Verzo",
+      "license": "CC BY 2.0",
+      "licenseURL": "http://creativecommons.org/licenses/by/2.0/legalcode",
+      "file": "images/cichorium-intybus-0.webp"
+    }
+  ],
+  "ambrosia-artemisiifolia": [
+    {
+      "label": "Male flowers and stems",
+      "author": "Meneekre bloem",
+      "license": "CC BY-SA 3.0",
+      "licenseURL": "https://creativecommons.org/licenses/by-sa/3.0/deed.en",
+      "file": "images/ambrosia-artemisiifolia-0.webp"
+    }
+  ],
+  "potentilla-indica": [
+    {
+      "label": "leaves and flower",
+      "author": "Julien.leger83",
+      "license": "CC BY-SA 3.0",
+      "licenseURL": "https://creativecommons.org/licenses/by-sa/3.0/deed.en",
+      "file": "images/potentilla-indica-0.webp"
+    },
+    {
+      "label": "leaves and fruit",
+      "author": "Kurt Stüber",
+      "license": "CC BY-SA 3.0",
+      "licenseURL": "https://creativecommons.org/licenses/by-sa/3.0/deed.en",
+      "file": "images/potentilla-indica-1.webp"
+    }
+  ],
+  "polygonum-aviculare": [
+    {
+      "label": "Growing in cracks",
+      "author": "GT1976",
+      "license": "CC BY-SA 4.0",
+      "licenseURL": "http://creativecommons.org/licenses/by-sa/4.0/legalcode",
+      "file": "images/polygonum-aviculare-0.webp"
+    }
+  ],
+  "galium-aparine": [
+    {
+      "label": "Flowers",
+      "author": "Fornax",
+      "license": "CC BY-SA 3.0",
+      "licenseURL": "https://creativecommons.org/licenses/by-sa/3.0/deed.en",
+      "file": "images/galium-aparine-0.webp"
+    }
+  ],
+  "erigeron-canadensis": [
+    {
+      "label": "Conyza canadensis Canadian horseweed",
+      "author": "Fritzflohrreynolds",
+      "license": "CC BY-SA 3.0",
+      "licenseURL": "https://creativecommons.org/licenses/by-sa/3.0/deed.en",
+      "file": "images/erigeron-canadensis-0.webp"
+    }
   ]
 };
