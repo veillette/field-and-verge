@@ -9,8 +9,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="style.css">
-<script defer src="photos.js?v=4"></script>
-<script defer src="guide.js?v=4"></script>
+<script type="module" src="guide.js"></script>
 </head>
 <body id="top">
 <a class="skip" href="#guide">Skip to the field guide</a>
@@ -31,7 +30,7 @@
       <figcaption><span>Common dandelion</span><i>Taraxacum officinale</i></figcaption>
     </figure>
   </section>
-  <section class="catalog wrap" id="guide" aria-labelledby="guide-title">
+  <section class="catalog wrap" id="guide" tabindex="-1" aria-labelledby="guide-title">
     <div class="section-head">
       <div><p class="kicker"><span></span> THE COLLECTION</p><h2 id="guide-title">Find your weed</h2></div>
       <label class="search"><span aria-hidden="true">⌕</span><input id="search" type="search" placeholder="Try “heart-shaped” or “yellow”" aria-label="Search by name or trait"></label>
@@ -53,6 +52,9 @@
   </section>
 </main>
 <footer class="wrap foot"><a class="brand" href="#top"><span class="brand-icon" aria-hidden="true">✳</span> Field &amp; Verge</a><a href="https://forages.mgcafe.uky.edu/weedid">University of Kentucky weed ID resources ↗</a><button type="button" id="credits">Photo credits</button></footer>
-<dialog id="profile" aria-labelledby="profile-title"><button type="button" id="close" aria-label="Close profile">×</button><div id="details"></div></dialog>
+<dialog id="profile" aria-labelledby="profile-title">
+  <form method="dialog"><button type="submit" id="close" aria-label="Close" autofocus>×</button></form>
+  <div id="details"></div>
+</dialog>
 </body>
 </html>
