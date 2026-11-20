@@ -1,60 +1,131 @@
 <!doctype html>
 <html lang="en">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="description" content="Identify common Kentucky lawn and garden weeds using real photos and practical field marks.">
-<title>Field &amp; Verge — Common Weed Field Guide</title>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="style.css">
-<script type="module" src="guide.js"></script>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Identify common Kentucky lawn and garden weeds using real photos and practical field marks.">
+  <title>Field &amp; Verge — Common Weed Field Guide</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script type="module" src="guide.js"></script>
 </head>
 <body id="top">
-<a class="skip" href="#guide">Skip to the field guide</a>
-<header class="wrap mast">
-  <a class="brand" href="#top"><span class="brand-icon" aria-hidden="true">✳</span> Field &amp; Verge</a>
-  <nav aria-label="Main navigation"><a href="#guide">Field guide</a><a href="#how">How to identify</a></nav>
-</header>
-<main>
-  <section class="hero wrap" aria-labelledby="hero-title">
-    <div class="hero-copy">
-      <p class="kicker"><span></span> A KENTUCKY FIELD GUIDE</p>
-      <h1 id="hero-title">Common weeds,<br><em>up close.</em></h1>
-      <p>Get to know the plants in lawns, gardens, roadsides, and woodland edges. Start with a photo, then look closer at the leaves, flowers, and stems.</p>
-      <a class="cta" href="#guide">Explore the field guide <span aria-hidden="true">↓</span></a>
-    </div>
-    <figure class="hero-image">
-      <img src="images/taraxacum-officinale-2.webp" alt="Yellow dandelions flowering in a grassy field" fetchpriority="high">
-      <figcaption><span>Common dandelion</span><i>Taraxacum officinale</i></figcaption>
-    </figure>
-  </section>
-  <section class="catalog wrap" id="guide" tabindex="-1" aria-labelledby="guide-title">
-    <div class="section-head">
-      <div><p class="kicker"><span></span> THE COLLECTION</p><h2 id="guide-title">Find your weed</h2></div>
-      <label class="search"><span aria-hidden="true">⌕</span><input id="search" type="search" placeholder="Try “heart-shaped” or “yellow”" aria-label="Search by name or trait"></label>
-    </div>
-    <div class="tools"><div id="filters" role="group" aria-label="Filter by flower color or plant type"></div><p id="count" role="status"></p></div>
-    <div id="cards" class="cards"></div>
-    <p class="empty" id="empty" hidden>No matches. Try another trait or clear the filters. <button type="button" id="reset">Clear search and filters</button></p>
-    <noscript>Enable JavaScript to browse the searchable plant profiles.</noscript>
-  </section>
-  <section id="how" class="how">
-    <div class="wrap how-inner">
-      <div><p class="kicker"><span></span> IDENTIFICATION TIPS</p><h2>Take a closer look</h2></div>
-      <div class="tips">
-        <article><h3>Start with the leaves</h3><p>Look at the shape, the edge, and where the leaves attach. A rosette is a cluster of leaves at ground level.</p></article>
-        <article><h3>Follow the stem</h3><p>See whether it stands upright, creeps along the ground, or roots where it touches soil. Check whether the stem is round or square.</p></article>
-        <article><h3>Check more than one clue</h3><p>Compare leaves and stems as well as flowers or seed heads. Photograph the whole plant and a close-up for a second look.</p></article>
+  <a class="skip" href="#guide">Skip to the field guide</a>
+  <header class="mast wrap">
+    <a class="brand" href="#top"><span class="brand-icon" aria-hidden="true">✳</span> Field &amp; Verge</a>
+    <nav aria-label="Main navigation">
+      <a href="#guide">Field guide</a>
+      <a href="#how">How to identify</a>
+    </nav>
+  </header>
+  <main>
+    <section class="hero wrap" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <p class="kicker">A Kentucky field guide</p>
+        <h1 id="hero-title">Common weeds, <em>up close.</em></h1>
+        <p>Get to know the plants in lawns, gardens, roadsides, and woodland edges. Start with a photo, then look closer at the leaves, flowers, and stems.</p>
+        <a class="cta" href="#guide">Explore the field guide <span aria-hidden="true">↓</span></a>
       </div>
+      <figure class="hero-image">
+        <img src="images/taraxacum-officinale-2.webp" alt="Yellow dandelions flowering in a grassy field" fetchpriority="high">
+        <figcaption><span>Common dandelion</span><i>Taraxacum officinale</i></figcaption>
+      </figure>
+    </section>
+    <section class="catalog wrap" id="guide" tabindex="-1" aria-labelledby="guide-title">
+      <p class="kicker">The collection</p>
+      <h2 id="guide-title">Find your weed</h2>
+      <form class="catalog-controls" id="catalog-controls" role="search" aria-label="Weed profiles" hidden>
+        <div class="fields">
+          <label class="field">
+            <span>Search by name or trait</span>
+            <input id="search" type="search" placeholder="Try “heart-shaped” or “yellow”" autocomplete="off">
+          </label>
+          <label class="field">
+            <span>Flower color or plant type</span>
+            <select id="category"></select>
+          </label>
+        </div>
+        <div class="results-bar">
+          <p id="count" role="status"></p>
+          <button class="text-button" type="button" id="reset" hidden>Clear search and filters</button>
+        </div>
+      </form>
+      <div id="cards" class="cards"></div>
+      <p class="empty" id="empty" hidden>No matches. Try a different name, trait, or category.</p>
+      <noscript>Enable JavaScript to browse the searchable plant profiles.</noscript>
+    </section>
+    <section id="how" class="how">
+      <div class="how-inner wrap">
+        <div><p class="kicker">Identification tips</p><h2>Take a closer look</h2></div>
+        <div class="tips">
+          <article><h3>Start with the leaves</h3><p>Look at the shape, the edge, and where the leaves attach. A rosette is a cluster of leaves at ground level.</p></article>
+          <article><h3>Follow the stem</h3><p>See whether it stands upright, creeps along the ground, or roots where it touches soil. Check whether the stem is round or square.</p></article>
+          <article><h3>Check more than one clue</h3><p>Compare leaves and stems as well as flowers or seed heads. Photograph the whole plant and a close-up for a second look.</p></article>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="foot wrap">
+    <a class="brand" href="#top"><span class="brand-icon" aria-hidden="true">✳</span> Field &amp; Verge</a>
+    <a href="https://forages.mgcafe.uky.edu/weedid">University of Kentucky weed ID resources ↗</a>
+    <button class="text-button" type="button" id="credits" hidden>Photo credits</button>
+  </footer>
+
+  <dialog class="profile-dialog" id="profile" aria-labelledby="profile-title">
+    <header class="dialog-header">
+      <h2 id="profile-title"></h2>
+      <form method="dialog">
+        <button class="dialog-close" type="submit" aria-label="Close" autofocus>×</button>
+      </form>
+    </header>
+    <div class="dialog-body" id="details"></div>
+  </dialog>
+
+  <template id="card-template">
+    <article class="card">
+      <div class="card-photo">
+        <img loading="lazy" decoding="async" alt="">
+        <span class="tag"><span class="swatch" aria-hidden="true"></span><span class="plant-life"></span></span>
+      </div>
+      <div class="card-body">
+        <h3></h3>
+        <p class="scientific"></p>
+        <p class="summary"></p>
+        <button type="button" class="open">View profile <span aria-hidden="true">↗</span></button>
+      </div>
+    </article>
+  </template>
+
+  <template id="profile-template">
+    <div>
+      <span class="tag"><span class="swatch" aria-hidden="true"></span><span class="plant-life"></span></span>
+      <p class="scientific"></p>
+      <section>
+        <h3>Look for</h3>
+        <ul class="clues"></ul>
+      </section>
+      <div class="gallery"></div>
+      <section><h3>Where it grows</h3><p class="habitat"></p></section>
+      <section><h3>Look-alikes</h3><p class="compare"></p></section>
+      <section class="fact"><h3>Did you know?</h3><p class="fact-text"></p></section>
+      <a class="plant-source">More photos and botanical details from NC State Extension ↗</a>
     </div>
-  </section>
-</main>
-<footer class="wrap foot"><a class="brand" href="#top"><span class="brand-icon" aria-hidden="true">✳</span> Field &amp; Verge</a><a href="https://forages.mgcafe.uky.edu/weedid">University of Kentucky weed ID resources ↗</a><button type="button" id="credits">Photo credits</button></footer>
-<dialog id="profile" aria-labelledby="profile-title">
-  <form method="dialog"><button type="submit" id="close" aria-label="Close" autofocus>×</button></form>
-  <div id="details"></div>
-</dialog>
+  </template>
+
+  <template id="photo-template">
+    <figure>
+      <img decoding="async" alt="">
+      <figcaption></figcaption>
+    </figure>
+  </template>
+
+  <template id="credits-template">
+    <div>
+      <p>Photographs sourced from the NC State Extension Gardener Plant Toolbox. Images have been resized and may appear cropped on the main page.</p>
+      <div class="credit-list"></div>
+    </div>
+  </template>
 </body>
 </html>
