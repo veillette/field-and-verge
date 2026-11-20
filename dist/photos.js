@@ -1,4 +1,4 @@
-const photos = {
+export const photos = {
   "taraxacum-officinale": [
     {
       "label": "Flower",
