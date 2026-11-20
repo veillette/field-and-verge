@@ -4,11 +4,27 @@ A photo field guide to common Kentucky lawn and garden weeds. Profiles include i
 
 ## Run locally
 
-From the repository root, run `python3 -m http.server --directory dist 8000` and open http://localhost:8000.
+From the repository root, run `python3 -m http.server --directory dist 8000` and open http://localhost:8000. The site runs in the browser without a package install.
 
-## Maintain the catalog
+## Project layout
 
-Add plant profiles to `dist/weeds.js`, matching photo credits to each plant ID in `dist/photos.js` and storing the WebP files in `dist/images/`. Run `npm test` with Node.js 24 to check profile data, photo references and credits, and search behavior. There are no npm dependencies to install.
+- `dist/weeds.js` holds plant profiles. For each new profile, add matching credits under the same plant ID in `dist/photos.js` and WebP files in `dist/images/`.
+- `dist/catalog.js` handles search and categories. `dist/guide.js` wires them to the catalog controls.
+- `dist/index.html` contains the page and reusable plant templates. `dist/plant-view.js` fills those templates and opens the profile and credit dialogs.
+- `dist/style.css` groups responsive styles by page section.
+
+## Checks
+
+Use Node.js 24. Run `npm test` for the catalog, photo, and search checks. To run the browser checks against the GitHub Pages build:
+
+```sh
+npm ci
+npx playwright install --only-shell chromium
+npm run build
+npm run test:browser
+```
+
+The browser suite covers phone, tablet, and desktop layouts, including search, filtering, touch controls, and profile dialogs.
 
 ## Deploy
 
