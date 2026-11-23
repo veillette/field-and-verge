@@ -1,8 +1,7 @@
 import assert from "node:assert/strict";
-import { statSync } from "node:fs";
+import { readdirSync, statSync } from "node:fs";
 import test from "node:test";
-import { colors, scientificName, searchWeeds } from "../dist/catalog.js";
-import { photos } from "../dist/photos.js";
+import { categories, colors, photoPath, scientificName, searchWeeds } from "../dist/catalog.js";
 import { weeds } from "../dist/weeds.js";
 
 function assertText(value, field) {
@@ -26,18 +25,30 @@ test("every profile has a unique ID, valid filter, and complete identification t
   }
 });
 
-test("photo metadata covers every profile and each credited image exists", () => {
-  assert.deepEqual(Object.keys(photos).sort(), weeds.map(weed => weed.id).sort());
-  for (const [id, gallery] of Object.entries(photos)) {
-    assert.ok(Array.isArray(gallery) && gallery.length, `${id}: no photos`);
-    for (const photo of gallery) {
-      for (const field of ["label", "author", "license"]) assertText(photo[field], `${id}: ${field}`);
-      assert.match(photo.licenseURL, /^https?:\/\//, `${id}: invalid license URL`);
-      assert.match(photo.file, /^images\/[a-z0-9-]+\.webp$/, `${id}: invalid image path`);
-      const image = statSync(new URL(`../dist/${photo.file}`, import.meta.url), { throwIfNoEntry: false });
-      assert.ok(image?.isFile() && image.size > 0, `${id}: missing or empty ${photo.file}`);
+test("photo credits map to unique, existing images without orphaned WebPs", () => {
+  const images = new Set();
+  for (const { id, photos } of weeds) {
+    assert.ok(Array.isArray(photos) && photos.length, id + ": no photos");
+    for (const photo of photos) {
+      for (const field of ["label", "author", "license"]) assertText(photo[field], id + ": " + field);
+      assert.match(photo.licenseURL, /^https?:\/\//, id + ": invalid license URL");
+      assert.ok(Number.isSafeInteger(photo.number) && photo.number >= 0, id + ": invalid photo number");
+      const file = photoPath(id, photo);
+      assert.ok(!images.has(file), "Duplicate photo: " + file);
+      images.add(file);
+      const image = statSync(new URL("../dist/" + file, import.meta.url), { throwIfNoEntry: false });
+      assert.ok(image?.isFile() && image.size > 0, id + ": missing or empty " + file);
     }
   }
+  const assets = readdirSync(new URL("../dist/images/", import.meta.url))
+    .filter(file => file.endsWith(".webp"))
+    .map(file => "images/" + file);
+  assert.deepEqual(new Set(assets), images);
+});
+
+test("filter choices cover the catalog and follow the palette order", () => {
+  assert.deepEqual(new Set(categories), new Set(weeds.map(weed => weed.color)));
+  assert.deepEqual(categories, Object.keys(colors).filter(color => categories.includes(color)));
 });
 
 test("search finds common, alternate, and scientific names", () => {

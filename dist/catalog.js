@@ -15,7 +15,13 @@ export const colors = {
   "Spore-bearing": "#52847a"
 };
 
+const usedColors = new Set(weeds.map(weed => weed.color));
+export const categories = Object.keys(colors).filter(color => usedColors.has(color));
 export const weedsById = new Map(weeds.map(weed => [weed.id, weed]));
+
+export function photoPath(plantId, photo) {
+  return `images/${plantId}-${photo.number}.webp`;
+}
 
 export function scientificName(id) {
   const name = id.replaceAll("-", " ");

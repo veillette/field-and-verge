@@ -19,7 +19,8 @@ The Pages workflow runs the deployment smoke test against `_site/`. Run `node .g
 
 ## Project layout
 
-- `dist/weeds.js` holds plant profiles. For each new profile, add matching credits under the same plant ID in `dist/photos.js` and WebP files in `dist/images/`.
+- `dist/weeds.js` holds plant profiles and their photo credits. Add the profile and its `photos` in the same record.
+- Put each WebP in `dist/images/` under `<plant-id>-<photo-number>.webp`. Each photo number identifies its file and stays the same if you reorder the gallery. The first photo supplies the card image. Keep the label, creator, license name, and license URL with each photo.
 - `dist/catalog.js` handles search and categories. `dist/guide.js` wires them to the catalog controls.
 - `dist/index.html` contains the page and reusable plant templates. `dist/plant-view.js` fills those templates and opens the profile and credit dialogs.
 - `dist/style.css` groups responsive styles by page section.

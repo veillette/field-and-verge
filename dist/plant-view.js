@@ -1,5 +1,4 @@
-import { colors, scientificName } from "./catalog.js";
-import { photos } from "./photos.js";
+import { colors, photoPath, scientificName } from "./catalog.js";
 import { weeds } from "./weeds.js";
 
 const cardTemplate = document.querySelector("#card-template");
@@ -21,7 +20,7 @@ function fillPlantLabel(view, weed) {
 }
 
 function fillPhoto(image, weed, photo) {
-  image.src = photo.file;
+  image.src = photoPath(weed.id, photo);
   image.alt = `${weed.name}: ${photo.label}`;
 }
 
@@ -39,7 +38,7 @@ export function createCard(weed) {
   card.querySelector(".summary").textContent = weed.summary;
   card.querySelector(".open").setAttribute("aria-label", `View profile for ${weed.name}`);
   fillPlantLabel(card, weed);
-  fillPhoto(card.querySelector("img"), weed, photos[weed.id][0]);
+  fillPhoto(card.querySelector("img"), weed, weed.photos[0]);
   return card;
 }
 
@@ -67,7 +66,7 @@ export function showProfile(weed) {
   }
 
   const gallery = view.querySelector(".gallery");
-  for (const photo of photos[weed.id]) {
+  for (const photo of weed.photos) {
     const figure = photoTemplate.content.cloneNode(true);
     fillPhoto(figure.querySelector("img"), weed, photo);
     figure.querySelector("figcaption").append(
@@ -87,9 +86,9 @@ export function showCredits() {
     heading.append(link(weed.name, plantSource(weed.id)));
 
     const items = document.createElement("ul");
-    for (const photo of photos[weed.id]) {
+    for (const photo of weed.photos) {
       const item = document.createElement("li");
-      item.append(link(photo.label, photo.file), ` · ${photo.author} · `, link(photo.license, photo.licenseURL));
+      item.append(link(photo.label, photoPath(weed.id, photo)), ` · ${photo.author} · `, link(photo.license, photo.licenseURL));
       items.append(item);
     }
     groups.append(heading, items);

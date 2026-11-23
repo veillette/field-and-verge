@@ -5,7 +5,7 @@ import { createServer } from "node:http";
 import { extname } from "node:path";
 import test, { after, before } from "node:test";
 import { chromium } from "playwright";
-import { photos } from "../dist/photos.js";
+import { weedsById } from "../dist/catalog.js";
 import { weeds } from "../dist/weeds.js";
 
 const site = new URL("../_site/", import.meta.url);
@@ -113,7 +113,7 @@ for (const { name, width, height, touch, columns } of viewports) {
     const profile = page.getByRole("dialog", { name: "Common dandelion" });
     await profile.waitFor();
     const images = profile.getByRole("img");
-    assert.equal(await images.count(), photos["taraxacum-officinale"].length);
+    assert.equal(await images.count(), weedsById.get("taraxacum-officinale").photos.length);
     await images.evaluateAll(images => Promise.all(images.map(image => image.decode())));
     const close = profile.getByRole("button", { name: "Close" });
     const closeBox = await close.boundingBox();
@@ -135,7 +135,8 @@ for (const { name, width, height, touch, columns } of viewports) {
     await page.getByRole("button", { name: "Photo credits" }).click();
     const credits = page.getByRole("dialog", { name: "Photo credits" });
     assert.ok(await credits.isVisible());
-    assert.equal(await credits.getByRole("listitem").count(), Object.values(photos).flat().length);
+    const photoCount = weeds.reduce((count, weed) => count + weed.photos.length, 0);
+    assert.equal(await credits.getByRole("listitem").count(), photoCount);
     assert.deepEqual(errors, []);
   });
 }

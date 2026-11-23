@@ -1,4 +1,4 @@
-import { allWeeds, colors, searchWeeds, weedsById } from "./catalog.js";
+import { allWeeds, categories, searchWeeds, weedsById } from "./catalog.js";
 import { createCard, showCredits, showProfile } from "./plant-view.js";
 import { weeds } from "./weeds.js";
 
@@ -12,7 +12,7 @@ const cards = document.querySelector("#cards");
 const credits = document.querySelector("#credits");
 
 category.add(new Option(allWeeds, allWeeds, true, true));
-for (const color of Object.keys(colors)) {
+for (const color of categories) {
   category.add(new Option(color, color));
 }
 cards.replaceChildren(...weeds.map(createCard));
