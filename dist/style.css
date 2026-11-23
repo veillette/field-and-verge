@@ -613,3 +613,23 @@ h2 {
 .fact p:last-child {
   margin-bottom: 0;
 }
+
+.offline-install {
+  flex: 1 0 100%;
+  max-width: 40rem;
+  font-size: 1rem;
+}
+
+.offline-install summary {
+  padding-block: .65rem;
+  cursor: pointer;
+}
+
+.offline-install button {
+  min-height: 44px;
+  cursor: pointer;
+}
+
+.copy-status:not(:empty) {
+  margin-inline-start: .5em;
+}

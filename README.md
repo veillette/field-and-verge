@@ -2,9 +2,20 @@
 
 A photo field guide to common Kentucky lawn and garden weeds. Profiles include identification marks, habitats, look-alikes, and natural history. Photo credits and licenses appear in each profile and in the guide's footer.
 
-## Run locally
+Use **Copy profile link** to share a plant. In the built site, open **Install for offline use** and wait for the ready message to use the guide and its photos offline. The build generates the offline file list and cache version from the deployment files.
 
-From the repository root, run `python3 -m http.server --directory dist 8000` and open http://localhost:8000. The site runs in the browser without a package install.
+## Check, build, and preview
+
+Use Node.js 24 and Python 3.
+
+```sh
+npm ci
+npm run check
+npm run build
+python3 -m http.server 8000 --directory _site
+```
+
+The Pages workflow runs the deployment smoke test against `_site/`. Run `node .github/site-smoke.mjs _site --assets-only` to check the offline file list locally.
 
 ## Project layout
 
@@ -30,4 +41,4 @@ The browser suite covers phone, tablet, and desktop layouts, including search, f
 
 In **Settings → Pages**, set the publishing source to **GitHub Actions**. The workflow runs the checks and build on pull requests and pushes to `main`. Successful builds from `main` deploy to GitHub Pages. You can also run the workflow manually from **Actions**.
 
-To preview the deployment build locally, run `npm run build` and serve `_site/` in place of `dist/`. The build versions the styles and scripts together based on their contents.
+To preview the deployment build locally, including offline support, run `npm run build` and serve `_site/` in place of `dist/`. The build versions the styles and scripts together based on their contents.

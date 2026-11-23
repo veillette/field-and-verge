@@ -14,12 +14,15 @@ const mediaTypes = {
   ".css": "text/css",
   ".html": "text/html",
   ".js": "text/javascript",
+  ".png": "image/png",
+  ".webmanifest": "application/manifest+json",
   ".webp": "image/webp"
 };
 
 const server = createServer(async (request, response) => {
   if (request.url?.startsWith(prefix)) {
-    const file = new URL(request.url.slice(prefix.length) || "index.html", site);
+    const pathname = new URL(request.url, "http://localhost").pathname;
+    const file = new URL(pathname.slice(prefix.length) || "index.html", site);
     const type = mediaTypes[extname(file.pathname)];
     if (file.href.startsWith(site.href) && type) {
       const content = await readFile(file).catch(() => null);
@@ -136,3 +139,21 @@ for (const { name, width, height, touch, columns } of viewports) {
     assert.deepEqual(errors, []);
   });
 }
+
+test("a copied profile opens with its photos while offline", { timeout: 30_000 }, async (t) => {
+  const context = await browser.newContext({ permissions: ["clipboard-read", "clipboard-write"] });
+  t.after(() => context.close());
+  const page = await context.newPage();
+  await page.goto(guideUrl);
+  await page.waitForFunction(() => navigator.serviceWorker.controller !== null);
+  await page.locator(".card .open").first().click();
+  await page.getByRole("button", { name: "Copy profile link" }).click();
+  const link = await page.evaluate(() => navigator.clipboard.readText());
+  assert.equal(new URL(link).searchParams.get("plant"), weeds[0].id);
+
+  await context.setOffline(true);
+  await page.goto(link);
+  const profile = page.getByRole("dialog", { name: weeds[0].name });
+  await profile.waitFor();
+  await profile.locator(".gallery img").first().evaluate((image) => image.decode());
+});

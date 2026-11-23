@@ -1,0 +1,9 @@
+{
+  "routes": [
+    {
+      "path": "?plant=taraxacum-officinale",
+      "selector": "#profile-title",
+      "text": "Common dandelion"
+    }
+  ]
+}

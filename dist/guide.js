@@ -48,3 +48,6 @@ credits.addEventListener("click", showCredits);
 updateResults();
 controls.hidden = false;
 credits.hidden = false;
+
+const linkedPlant = weedsById.get(new URLSearchParams(location.search).get("plant"));
+if (linkedPlant) showProfile(linkedPlant);
