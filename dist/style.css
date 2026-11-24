@@ -107,15 +107,9 @@ h2 {
 }
 
 .brand-icon {
-  display: grid;
   flex: none;
-  place-items: center;
   width: 1.875rem;
   height: 1.875rem;
-  border-radius: 50%;
-  background: var(--green);
-  color: #eff6d8;
-  font: 1.125rem/1 system-ui;
 }
 
 .mast nav {

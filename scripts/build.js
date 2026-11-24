@@ -28,7 +28,7 @@ mkdirSync(join(output, assetPath), { recursive: true });
 for (const { file, content } of assets) {
   writeFileSync(join(output, assetPath, file), content);
 }
-for (const name of ["images", "icons", "manifest.webmanifest"]) {
+for (const name of ["images", "icons", "icon.svg", "manifest.webmanifest"]) {
   cpSync(join(source, name), join(output, name), { recursive: true });
 }
 writeFileSync(join(output, "index.html"), html);
