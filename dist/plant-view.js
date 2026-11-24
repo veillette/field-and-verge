@@ -1,4 +1,5 @@
 import { colors, photoPath, scientificName } from "./catalog.js";
+import { plantLink } from "./plant-links.js";
 import { weeds } from "./weeds.js";
 
 const cardTemplate = document.querySelector("#card-template");
@@ -52,7 +53,7 @@ function showDialog(name, content) {
 export function showProfile(weed) {
   const view = profileTemplate.content.cloneNode(true);
   fillPlantLabel(view, weed);
-  view.querySelector("[data-copy-link]").dataset.copyLink = `?plant=${encodeURIComponent(weed.id)}`;
+  view.querySelector("[data-copy-link]").dataset.copyLink = plantLink(weed.id);
   view.querySelector(".habitat").textContent = weed.habitat;
   view.querySelector(".compare").textContent = weed.compare;
   view.querySelector(".fact-text").textContent = weed.fact;
