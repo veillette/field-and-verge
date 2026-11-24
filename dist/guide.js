@@ -1,4 +1,5 @@
 import { allWeeds, categories, searchWeeds, weedsById } from "./catalog.js";
+import { plantFromSearch } from "./plant-links.js";
 import { createCard, showCredits, showProfile } from "./plant-view.js";
 import { weeds } from "./weeds.js";
 
@@ -49,5 +50,5 @@ updateResults();
 controls.hidden = false;
 credits.hidden = false;
 
-const linkedPlant = weedsById.get(new URLSearchParams(location.search).get("plant"));
+const linkedPlant = plantFromSearch(location.search);
 if (linkedPlant) showProfile(linkedPlant);
