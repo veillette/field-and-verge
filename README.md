@@ -1,4 +1,4 @@
-# Field & Verge
+# Field & Verge — Kentucky lawn & garden weeds
 
 A photo field guide to common Kentucky lawn and garden weeds. Profiles include identification marks, habitats, look-alikes, and natural history. Photo credits and licenses appear in each profile and in the guide's footer.
 
@@ -6,7 +6,7 @@ Use **Copy profile link** to share a plant. In the built site, open **Install fo
 
 ## Check, build, and preview
 
-Use Node.js 24 and Python 3.
+Use Node.js 26 and Python 3.
 
 ```sh
 npm ci
@@ -27,7 +27,7 @@ The Pages workflow runs the deployment smoke test against `_site/`. Run `node .g
 
 ## Checks
 
-Use Node.js 24. Run `npm test` for the catalog, photo, and search checks. To run the browser checks against the GitHub Pages build:
+Use Node.js 26. Run `npm test` for the catalog, photo, and search checks. To run the browser checks against the GitHub Pages build:
 
 ```sh
 npm ci

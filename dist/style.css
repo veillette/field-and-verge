@@ -112,6 +112,14 @@ h2 {
   height: 1.875rem;
 }
 
+.brand-sub {
+  margin-left: .15rem;
+  font: 700 .7em/1 var(--sans, "DM Sans", sans-serif);
+  letter-spacing: .04em;
+  text-transform: uppercase;
+  opacity: .72;
+}
+
 .mast nav {
   display: flex;
   flex-wrap: wrap;
